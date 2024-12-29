@@ -1,0 +1,17 @@
+[1.539s] Invoking command in '/home/dj/yolo_ws/build/deep_sort_ros': PYTHONPATH=/home/dj/yolo_ws/build/deep_sort_ros/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/dj/yolo_ws/install/deep_sort_ros/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/dj/yolo_ws/build/deep_sort_ros/build --no-deps symlink_data
+[1.858s] /home/dj/.local/lib/python3.10/site-packages/setuptools/_distutils/dist.py:261: UserWarning: Unknown distribution option: 'tests_require'
+[1.858s]   warnings.warn(msg)
+[2.252s] running develop
+[2.710s] running egg_info
+[2.744s] writing deep_sort_ros.egg-info/PKG-INFO
+[2.745s] writing dependency_links to deep_sort_ros.egg-info/dependency_links.txt
+[2.745s] writing requirements to deep_sort_ros.egg-info/requires.txt
+[2.746s] writing top-level names to deep_sort_ros.egg-info/top_level.txt
+[2.818s] reading manifest file 'deep_sort_ros.egg-info/SOURCES.txt'
+[2.820s] writing manifest file 'deep_sort_ros.egg-info/SOURCES.txt'
+[2.869s] running build_ext
+[2.869s] Creating /home/dj/yolo_ws/install/deep_sort_ros/lib/python3.10/site-packages/deep-sort-ros.egg-link (link to .)
+[2.871s] 
+[2.871s] Installed /home/dj/yolo_ws/build/deep_sort_ros
+[2.871s] running symlink_data
+[2.920s] Invoked command in '/home/dj/yolo_ws/build/deep_sort_ros' returned '0': PYTHONPATH=/home/dj/yolo_ws/build/deep_sort_ros/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/dj/yolo_ws/install/deep_sort_ros/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/dj/yolo_ws/build/deep_sort_ros/build --no-deps symlink_data

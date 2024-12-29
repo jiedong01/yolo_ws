@@ -1,0 +1,3 @@
+[0.210s] Invoking command in '/home/dj/yolo_ws/build/yolo_move': /usr/bin/cmake /home/dj/yolo_ws/src/yolo_move -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCATKIN_SYMLINK_INSTALL=ON -DCMAKE_INSTALL_PREFIX=/home/dj/yolo_ws/install/yolo_move
+[0.215s] [0mCMake Error: The source "/home/dj/yolo_ws/src/yolo_move/CMakeLists.txt" does not match the source "/home/dj/yolo_ws/src/yolo_move/src/CMakeLists.txt" used to generate cache.  Re-run cmake with a different source directory.[0m
+[0.217s] Invoked command in '/home/dj/yolo_ws/build/yolo_move' returned '1': /usr/bin/cmake /home/dj/yolo_ws/src/yolo_move -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCATKIN_SYMLINK_INSTALL=ON -DCMAKE_INSTALL_PREFIX=/home/dj/yolo_ws/install/yolo_move

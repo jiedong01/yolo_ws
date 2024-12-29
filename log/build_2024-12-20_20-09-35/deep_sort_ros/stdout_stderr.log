@@ -1,0 +1,20 @@
+/home/dj/.local/lib/python3.10/site-packages/setuptools/_distutils/dist.py:261: UserWarning: Unknown distribution option: 'tests_require'
+  warnings.warn(msg)
+running develop
+running egg_info
+creating deep_sort_ros.egg-info
+writing deep_sort_ros.egg-info/PKG-INFO
+writing dependency_links to deep_sort_ros.egg-info/dependency_links.txt
+writing requirements to deep_sort_ros.egg-info/requires.txt
+writing top-level names to deep_sort_ros.egg-info/top_level.txt
+writing manifest file 'deep_sort_ros.egg-info/SOURCES.txt'
+reading manifest file 'deep_sort_ros.egg-info/SOURCES.txt'
+writing manifest file 'deep_sort_ros.egg-info/SOURCES.txt'
+running build_ext
+Creating /home/dj/yolo_ws/install/deep_sort_ros/lib/python3.10/site-packages/deep-sort-ros.egg-link (link to .)
+
+Installed /home/dj/yolo_ws/build/deep_sort_ros
+running symlink_data
+creating /home/dj/yolo_ws/install/deep_sort_ros/share/ament_index/resource_index/packages
+symbolically linking /home/dj/yolo_ws/build/deep_sort_ros/resource/deep_sort_ros -> /home/dj/yolo_ws/install/deep_sort_ros/share/ament_index/resource_index/packages
+symbolically linking /home/dj/yolo_ws/build/deep_sort_ros/package.xml -> /home/dj/yolo_ws/install/deep_sort_ros/share/deep_sort_ros

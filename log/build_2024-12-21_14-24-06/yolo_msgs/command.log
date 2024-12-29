@@ -1,0 +1,6 @@
+Invoking command in '/home/dj/yolo_ws/build/yolo_msgs': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/dj/yolo_ws/src/yolo_ros/yolo_msgs -DCMAKE_EXPORT_COMPILE_COMMANDS=ON -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/dj/yolo_ws/install/yolo_msgs
+Invoked command in '/home/dj/yolo_ws/build/yolo_msgs' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/dj/yolo_ws/src/yolo_ros/yolo_msgs -DCMAKE_EXPORT_COMPILE_COMMANDS=ON -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/dj/yolo_ws/install/yolo_msgs
+Invoking command in '/home/dj/yolo_ws/build/yolo_msgs': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/dj/yolo_ws/build/yolo_msgs -- -j16 -l16
+Invoked command in '/home/dj/yolo_ws/build/yolo_msgs' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/dj/yolo_ws/build/yolo_msgs -- -j16 -l16
+Invoking command in '/home/dj/yolo_ws/build/yolo_msgs': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/dj/yolo_ws/build/yolo_msgs
+Invoked command in '/home/dj/yolo_ws/build/yolo_msgs' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/dj/yolo_ws/build/yolo_msgs

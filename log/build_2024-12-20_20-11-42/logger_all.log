@@ -1,0 +1,1028 @@
+[0.175s] [34mcolcon[0m [1;30mDEBUG[0m [32mCommand line arguments: ['/usr/bin/colcon', 'build', '--symlink-install'][0m
+[0.176s] [34mcolcon[0m [1;30mDEBUG[0m [32mParsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=True, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=16, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0x711341a26740>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x711341a26200>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x711341a26200>>)[0m
+[0.225s] [34mcolcon.colcon_core.package_discovery[0m [1;30mLevel 1[0m discover_packages(colcon_meta) check parameters
+[0.225s] [34mcolcon.colcon_core.package_discovery[0m [1;30mLevel 1[0m discover_packages(recursive) check parameters
+[0.225s] [34mcolcon.colcon_core.package_discovery[0m [1;30mLevel 1[0m discover_packages(ignore) check parameters
+[0.225s] [34mcolcon.colcon_core.package_discovery[0m [1;30mLevel 1[0m discover_packages(path) check parameters
+[0.225s] [34mcolcon.colcon_core.package_discovery[0m [1;30mLevel 1[0m discover_packages(colcon_meta) discover
+[0.225s] [34mcolcon.colcon_core.package_discovery[0m [1;30mLevel 1[0m discover_packages(recursive) discover
+[0.225s] [34mcolcon.colcon_core.package_discovery[0m [1;30mINFO[0m Crawling recursively for packages in '/home/dj/yolo_ws'
+[0.225s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.226s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(.) by extension 'ignore'
+[0.226s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(.) by extension 'ignore_ament_install'
+[0.226s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(.) by extensions ['colcon_pkg']
+[0.226s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(.) by extension 'colcon_pkg'
+[0.226s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(.) by extensions ['colcon_meta']
+[0.226s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(.) by extension 'colcon_meta'
+[0.226s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(.) by extensions ['ros']
+[0.226s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(.) by extension 'ros'
+[0.245s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(.) by extensions ['cmake', 'python']
+[0.246s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(.) by extension 'cmake'
+[0.246s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(.) by extension 'python'
+[0.246s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(.) by extensions ['python_setup_py']
+[0.246s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(.) by extension 'python_setup_py'
+[0.246s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.246s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(build) by extension 'ignore'
+[0.246s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(build) ignored
+[0.246s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.246s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(install) by extension 'ignore'
+[0.246s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(install) ignored
+[0.246s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.247s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(log) by extension 'ignore'
+[0.247s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(log) ignored
+[0.247s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src) by extensions ['ignore', 'ignore_ament_install']
+[0.247s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src) by extension 'ignore'
+[0.247s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src) by extension 'ignore_ament_install'
+[0.247s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src) by extensions ['colcon_pkg']
+[0.247s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src) by extension 'colcon_pkg'
+[0.247s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src) by extensions ['colcon_meta']
+[0.247s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src) by extension 'colcon_meta'
+[0.247s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src) by extensions ['ros']
+[0.247s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src) by extension 'ros'
+[0.247s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src) by extensions ['cmake', 'python']
+[0.247s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src) by extension 'cmake'
+[0.247s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src) by extension 'python'
+[0.247s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src) by extensions ['python_setup_py']
+[0.247s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src) by extension 'python_setup_py'
+[0.247s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/deep_sort resource_dj) by extensions ['ignore', 'ignore_ament_install']
+[0.247s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/deep_sort resource_dj) by extension 'ignore'
+[0.247s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/deep_sort resource_dj) by extension 'ignore_ament_install'
+[0.247s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/deep_sort resource_dj) by extensions ['colcon_pkg']
+[0.248s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/deep_sort resource_dj) by extension 'colcon_pkg'
+[0.248s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/deep_sort resource_dj) by extensions ['colcon_meta']
+[0.248s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/deep_sort resource_dj) by extension 'colcon_meta'
+[0.248s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/deep_sort resource_dj) by extensions ['ros']
+[0.248s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/deep_sort resource_dj) by extension 'ros'
+[0.248s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/deep_sort resource_dj) by extensions ['cmake', 'python']
+[0.248s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/deep_sort resource_dj) by extension 'cmake'
+[0.248s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/deep_sort resource_dj) by extension 'python'
+[0.248s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/deep_sort resource_dj) by extensions ['python_setup_py']
+[0.248s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/deep_sort resource_dj) by extension 'python_setup_py'
+[0.248s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/deep_sort resource_dj/MOT16) by extensions ['ignore', 'ignore_ament_install']
+[0.248s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/deep_sort resource_dj/MOT16) by extension 'ignore'
+[0.248s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/deep_sort resource_dj/MOT16) by extension 'ignore_ament_install'
+[0.248s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/deep_sort resource_dj/MOT16) by extensions ['colcon_pkg']
+[0.248s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/deep_sort resource_dj/MOT16) by extension 'colcon_pkg'
+[0.248s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/deep_sort resource_dj/MOT16) by extensions ['colcon_meta']
+[0.248s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/deep_sort resource_dj/MOT16) by extension 'colcon_meta'
+[0.248s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/deep_sort resource_dj/MOT16) by extensions ['ros']
+[0.248s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/deep_sort resource_dj/MOT16) by extension 'ros'
+[0.248s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/deep_sort resource_dj/MOT16) by extensions ['cmake', 'python']
+[0.248s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/deep_sort resource_dj/MOT16) by extension 'cmake'
+[0.248s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/deep_sort resource_dj/MOT16) by extension 'python'
+[0.248s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/deep_sort resource_dj/MOT16) by extensions ['python_setup_py']
+[0.248s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/deep_sort resource_dj/MOT16) by extension 'python_setup_py'
+[0.249s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/deep_sort resource_dj/MOT16/test) by extensions ['ignore', 'ignore_ament_install']
+[0.249s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/deep_sort resource_dj/MOT16/test) by extension 'ignore'
+[0.249s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/deep_sort resource_dj/MOT16/test) by extension 'ignore_ament_install'
+[0.249s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/deep_sort resource_dj/MOT16/test) by extensions ['colcon_pkg']
+[0.249s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/deep_sort resource_dj/MOT16/test) by extension 'colcon_pkg'
+[0.249s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/deep_sort resource_dj/MOT16/test) by extensions ['colcon_meta']
+[0.249s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/deep_sort resource_dj/MOT16/test) by extension 'colcon_meta'
+[0.249s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/deep_sort resource_dj/MOT16/test) by extensions ['ros']
+[0.249s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/deep_sort resource_dj/MOT16/test) by extension 'ros'
+[0.249s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/deep_sort resource_dj/MOT16/test) by extensions ['cmake', 'python']
+[0.249s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/deep_sort resource_dj/MOT16/test) by extension 'cmake'
+[0.249s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/deep_sort resource_dj/MOT16/test) by extension 'python'
+[0.249s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/deep_sort resource_dj/MOT16/test) by extensions ['python_setup_py']
+[0.249s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/deep_sort resource_dj/MOT16/test) by extension 'python_setup_py'
+[0.249s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/deep_sort resource_dj/MOT16/test/MOT16-01) by extensions ['ignore', 'ignore_ament_install']
+[0.249s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/deep_sort resource_dj/MOT16/test/MOT16-01) by extension 'ignore'
+[0.249s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/deep_sort resource_dj/MOT16/test/MOT16-01) by extension 'ignore_ament_install'
+[0.249s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/deep_sort resource_dj/MOT16/test/MOT16-01) by extensions ['colcon_pkg']
+[0.249s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/deep_sort resource_dj/MOT16/test/MOT16-01) by extension 'colcon_pkg'
+[0.249s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/deep_sort resource_dj/MOT16/test/MOT16-01) by extensions ['colcon_meta']
+[0.249s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/deep_sort resource_dj/MOT16/test/MOT16-01) by extension 'colcon_meta'
+[0.250s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/deep_sort resource_dj/MOT16/test/MOT16-01) by extensions ['ros']
+[0.250s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/deep_sort resource_dj/MOT16/test/MOT16-01) by extension 'ros'
+[0.250s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/deep_sort resource_dj/MOT16/test/MOT16-01) by extensions ['cmake', 'python']
+[0.250s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/deep_sort resource_dj/MOT16/test/MOT16-01) by extension 'cmake'
+[0.250s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/deep_sort resource_dj/MOT16/test/MOT16-01) by extension 'python'
+[0.250s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/deep_sort resource_dj/MOT16/test/MOT16-01) by extensions ['python_setup_py']
+[0.250s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/deep_sort resource_dj/MOT16/test/MOT16-01) by extension 'python_setup_py'
+[0.250s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/deep_sort resource_dj/MOT16/test/MOT16-01/det) by extensions ['ignore', 'ignore_ament_install']
+[0.250s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/deep_sort resource_dj/MOT16/test/MOT16-01/det) by extension 'ignore'
+[0.250s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/deep_sort resource_dj/MOT16/test/MOT16-01/det) by extension 'ignore_ament_install'
+[0.250s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/deep_sort resource_dj/MOT16/test/MOT16-01/det) by extensions ['colcon_pkg']
+[0.250s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/deep_sort resource_dj/MOT16/test/MOT16-01/det) by extension 'colcon_pkg'
+[0.250s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/deep_sort resource_dj/MOT16/test/MOT16-01/det) by extensions ['colcon_meta']
+[0.250s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/deep_sort resource_dj/MOT16/test/MOT16-01/det) by extension 'colcon_meta'
+[0.250s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/deep_sort resource_dj/MOT16/test/MOT16-01/det) by extensions ['ros']
+[0.250s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/deep_sort resource_dj/MOT16/test/MOT16-01/det) by extension 'ros'
+[0.250s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/deep_sort resource_dj/MOT16/test/MOT16-01/det) by extensions ['cmake', 'python']
+[0.250s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/deep_sort resource_dj/MOT16/test/MOT16-01/det) by extension 'cmake'
+[0.250s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/deep_sort resource_dj/MOT16/test/MOT16-01/det) by extension 'python'
+[0.250s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/deep_sort resource_dj/MOT16/test/MOT16-01/det) by extensions ['python_setup_py']
+[0.250s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/deep_sort resource_dj/MOT16/test/MOT16-01/det) by extension 'python_setup_py'
+[0.251s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/deep_sort resource_dj/MOT16/test/MOT16-01/img1) by extensions ['ignore', 'ignore_ament_install']
+[0.251s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/deep_sort resource_dj/MOT16/test/MOT16-01/img1) by extension 'ignore'
+[0.251s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/deep_sort resource_dj/MOT16/test/MOT16-01/img1) by extension 'ignore_ament_install'
+[0.251s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/deep_sort resource_dj/MOT16/test/MOT16-01/img1) by extensions ['colcon_pkg']
+[0.251s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/deep_sort resource_dj/MOT16/test/MOT16-01/img1) by extension 'colcon_pkg'
+[0.251s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/deep_sort resource_dj/MOT16/test/MOT16-01/img1) by extensions ['colcon_meta']
+[0.251s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/deep_sort resource_dj/MOT16/test/MOT16-01/img1) by extension 'colcon_meta'
+[0.251s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/deep_sort resource_dj/MOT16/test/MOT16-01/img1) by extensions ['ros']
+[0.251s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/deep_sort resource_dj/MOT16/test/MOT16-01/img1) by extension 'ros'
+[0.251s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/deep_sort resource_dj/MOT16/test/MOT16-01/img1) by extensions ['cmake', 'python']
+[0.251s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/deep_sort resource_dj/MOT16/test/MOT16-01/img1) by extension 'cmake'
+[0.251s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/deep_sort resource_dj/MOT16/test/MOT16-01/img1) by extension 'python'
+[0.251s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/deep_sort resource_dj/MOT16/test/MOT16-01/img1) by extensions ['python_setup_py']
+[0.252s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/deep_sort resource_dj/MOT16/test/MOT16-01/img1) by extension 'python_setup_py'
+[0.252s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/deep_sort resource_dj/MOT16/test/MOT16-03) by extensions ['ignore', 'ignore_ament_install']
+[0.252s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/deep_sort resource_dj/MOT16/test/MOT16-03) by extension 'ignore'
+[0.252s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/deep_sort resource_dj/MOT16/test/MOT16-03) by extension 'ignore_ament_install'
+[0.252s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/deep_sort resource_dj/MOT16/test/MOT16-03) by extensions ['colcon_pkg']
+[0.252s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/deep_sort resource_dj/MOT16/test/MOT16-03) by extension 'colcon_pkg'
+[0.252s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/deep_sort resource_dj/MOT16/test/MOT16-03) by extensions ['colcon_meta']
+[0.252s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/deep_sort resource_dj/MOT16/test/MOT16-03) by extension 'colcon_meta'
+[0.252s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/deep_sort resource_dj/MOT16/test/MOT16-03) by extensions ['ros']
+[0.252s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/deep_sort resource_dj/MOT16/test/MOT16-03) by extension 'ros'
+[0.252s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/deep_sort resource_dj/MOT16/test/MOT16-03) by extensions ['cmake', 'python']
+[0.252s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/deep_sort resource_dj/MOT16/test/MOT16-03) by extension 'cmake'
+[0.252s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/deep_sort resource_dj/MOT16/test/MOT16-03) by extension 'python'
+[0.252s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/deep_sort resource_dj/MOT16/test/MOT16-03) by extensions ['python_setup_py']
+[0.252s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/deep_sort resource_dj/MOT16/test/MOT16-03) by extension 'python_setup_py'
+[0.252s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/deep_sort resource_dj/MOT16/test/MOT16-03/det) by extensions ['ignore', 'ignore_ament_install']
+[0.252s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/deep_sort resource_dj/MOT16/test/MOT16-03/det) by extension 'ignore'
+[0.252s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/deep_sort resource_dj/MOT16/test/MOT16-03/det) by extension 'ignore_ament_install'
+[0.252s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/deep_sort resource_dj/MOT16/test/MOT16-03/det) by extensions ['colcon_pkg']
+[0.252s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/deep_sort resource_dj/MOT16/test/MOT16-03/det) by extension 'colcon_pkg'
+[0.252s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/deep_sort resource_dj/MOT16/test/MOT16-03/det) by extensions ['colcon_meta']
+[0.253s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/deep_sort resource_dj/MOT16/test/MOT16-03/det) by extension 'colcon_meta'
+[0.253s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/deep_sort resource_dj/MOT16/test/MOT16-03/det) by extensions ['ros']
+[0.253s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/deep_sort resource_dj/MOT16/test/MOT16-03/det) by extension 'ros'
+[0.253s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/deep_sort resource_dj/MOT16/test/MOT16-03/det) by extensions ['cmake', 'python']
+[0.253s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/deep_sort resource_dj/MOT16/test/MOT16-03/det) by extension 'cmake'
+[0.253s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/deep_sort resource_dj/MOT16/test/MOT16-03/det) by extension 'python'
+[0.253s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/deep_sort resource_dj/MOT16/test/MOT16-03/det) by extensions ['python_setup_py']
+[0.253s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/deep_sort resource_dj/MOT16/test/MOT16-03/det) by extension 'python_setup_py'
+[0.254s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/deep_sort resource_dj/MOT16/test/MOT16-03/img1) by extensions ['ignore', 'ignore_ament_install']
+[0.254s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/deep_sort resource_dj/MOT16/test/MOT16-03/img1) by extension 'ignore'
+[0.254s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/deep_sort resource_dj/MOT16/test/MOT16-03/img1) by extension 'ignore_ament_install'
+[0.254s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/deep_sort resource_dj/MOT16/test/MOT16-03/img1) by extensions ['colcon_pkg']
+[0.254s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/deep_sort resource_dj/MOT16/test/MOT16-03/img1) by extension 'colcon_pkg'
+[0.254s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/deep_sort resource_dj/MOT16/test/MOT16-03/img1) by extensions ['colcon_meta']
+[0.254s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/deep_sort resource_dj/MOT16/test/MOT16-03/img1) by extension 'colcon_meta'
+[0.255s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/deep_sort resource_dj/MOT16/test/MOT16-03/img1) by extensions ['ros']
+[0.255s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/deep_sort resource_dj/MOT16/test/MOT16-03/img1) by extension 'ros'
+[0.255s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/deep_sort resource_dj/MOT16/test/MOT16-03/img1) by extensions ['cmake', 'python']
+[0.255s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/deep_sort resource_dj/MOT16/test/MOT16-03/img1) by extension 'cmake'
+[0.255s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/deep_sort resource_dj/MOT16/test/MOT16-03/img1) by extension 'python'
+[0.255s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/deep_sort resource_dj/MOT16/test/MOT16-03/img1) by extensions ['python_setup_py']
+[0.255s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/deep_sort resource_dj/MOT16/test/MOT16-03/img1) by extension 'python_setup_py'
+[0.255s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/deep_sort resource_dj/MOT16/test/MOT16-06) by extensions ['ignore', 'ignore_ament_install']
+[0.255s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/deep_sort resource_dj/MOT16/test/MOT16-06) by extension 'ignore'
+[0.255s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/deep_sort resource_dj/MOT16/test/MOT16-06) by extension 'ignore_ament_install'
+[0.255s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/deep_sort resource_dj/MOT16/test/MOT16-06) by extensions ['colcon_pkg']
+[0.255s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/deep_sort resource_dj/MOT16/test/MOT16-06) by extension 'colcon_pkg'
+[0.255s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/deep_sort resource_dj/MOT16/test/MOT16-06) by extensions ['colcon_meta']
+[0.255s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/deep_sort resource_dj/MOT16/test/MOT16-06) by extension 'colcon_meta'
+[0.255s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/deep_sort resource_dj/MOT16/test/MOT16-06) by extensions ['ros']
+[0.255s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/deep_sort resource_dj/MOT16/test/MOT16-06) by extension 'ros'
+[0.255s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/deep_sort resource_dj/MOT16/test/MOT16-06) by extensions ['cmake', 'python']
+[0.255s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/deep_sort resource_dj/MOT16/test/MOT16-06) by extension 'cmake'
+[0.255s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/deep_sort resource_dj/MOT16/test/MOT16-06) by extension 'python'
+[0.255s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/deep_sort resource_dj/MOT16/test/MOT16-06) by extensions ['python_setup_py']
+[0.255s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/deep_sort resource_dj/MOT16/test/MOT16-06) by extension 'python_setup_py'
+[0.256s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/deep_sort resource_dj/MOT16/test/MOT16-06/det) by extensions ['ignore', 'ignore_ament_install']
+[0.256s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/deep_sort resource_dj/MOT16/test/MOT16-06/det) by extension 'ignore'
+[0.256s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/deep_sort resource_dj/MOT16/test/MOT16-06/det) by extension 'ignore_ament_install'
+[0.256s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/deep_sort resource_dj/MOT16/test/MOT16-06/det) by extensions ['colcon_pkg']
+[0.256s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/deep_sort resource_dj/MOT16/test/MOT16-06/det) by extension 'colcon_pkg'
+[0.256s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/deep_sort resource_dj/MOT16/test/MOT16-06/det) by extensions ['colcon_meta']
+[0.256s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/deep_sort resource_dj/MOT16/test/MOT16-06/det) by extension 'colcon_meta'
+[0.256s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/deep_sort resource_dj/MOT16/test/MOT16-06/det) by extensions ['ros']
+[0.256s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/deep_sort resource_dj/MOT16/test/MOT16-06/det) by extension 'ros'
+[0.256s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/deep_sort resource_dj/MOT16/test/MOT16-06/det) by extensions ['cmake', 'python']
+[0.256s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/deep_sort resource_dj/MOT16/test/MOT16-06/det) by extension 'cmake'
+[0.256s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/deep_sort resource_dj/MOT16/test/MOT16-06/det) by extension 'python'
+[0.256s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/deep_sort resource_dj/MOT16/test/MOT16-06/det) by extensions ['python_setup_py']
+[0.256s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/deep_sort resource_dj/MOT16/test/MOT16-06/det) by extension 'python_setup_py'
+[0.257s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/deep_sort resource_dj/MOT16/test/MOT16-06/img1) by extensions ['ignore', 'ignore_ament_install']
+[0.257s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/deep_sort resource_dj/MOT16/test/MOT16-06/img1) by extension 'ignore'
+[0.257s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/deep_sort resource_dj/MOT16/test/MOT16-06/img1) by extension 'ignore_ament_install'
+[0.257s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/deep_sort resource_dj/MOT16/test/MOT16-06/img1) by extensions ['colcon_pkg']
+[0.257s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/deep_sort resource_dj/MOT16/test/MOT16-06/img1) by extension 'colcon_pkg'
+[0.257s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/deep_sort resource_dj/MOT16/test/MOT16-06/img1) by extensions ['colcon_meta']
+[0.257s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/deep_sort resource_dj/MOT16/test/MOT16-06/img1) by extension 'colcon_meta'
+[0.257s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/deep_sort resource_dj/MOT16/test/MOT16-06/img1) by extensions ['ros']
+[0.258s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/deep_sort resource_dj/MOT16/test/MOT16-06/img1) by extension 'ros'
+[0.258s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/deep_sort resource_dj/MOT16/test/MOT16-06/img1) by extensions ['cmake', 'python']
+[0.258s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/deep_sort resource_dj/MOT16/test/MOT16-06/img1) by extension 'cmake'
+[0.258s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/deep_sort resource_dj/MOT16/test/MOT16-06/img1) by extension 'python'
+[0.258s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/deep_sort resource_dj/MOT16/test/MOT16-06/img1) by extensions ['python_setup_py']
+[0.258s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/deep_sort resource_dj/MOT16/test/MOT16-06/img1) by extension 'python_setup_py'
+[0.258s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/deep_sort resource_dj/MOT16/test/MOT16-07) by extensions ['ignore', 'ignore_ament_install']
+[0.258s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/deep_sort resource_dj/MOT16/test/MOT16-07) by extension 'ignore'
+[0.258s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/deep_sort resource_dj/MOT16/test/MOT16-07) by extension 'ignore_ament_install'
+[0.258s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/deep_sort resource_dj/MOT16/test/MOT16-07) by extensions ['colcon_pkg']
+[0.258s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/deep_sort resource_dj/MOT16/test/MOT16-07) by extension 'colcon_pkg'
+[0.258s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/deep_sort resource_dj/MOT16/test/MOT16-07) by extensions ['colcon_meta']
+[0.258s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/deep_sort resource_dj/MOT16/test/MOT16-07) by extension 'colcon_meta'
+[0.258s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/deep_sort resource_dj/MOT16/test/MOT16-07) by extensions ['ros']
+[0.258s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/deep_sort resource_dj/MOT16/test/MOT16-07) by extension 'ros'
+[0.258s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/deep_sort resource_dj/MOT16/test/MOT16-07) by extensions ['cmake', 'python']
+[0.258s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/deep_sort resource_dj/MOT16/test/MOT16-07) by extension 'cmake'
+[0.258s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/deep_sort resource_dj/MOT16/test/MOT16-07) by extension 'python'
+[0.258s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/deep_sort resource_dj/MOT16/test/MOT16-07) by extensions ['python_setup_py']
+[0.258s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/deep_sort resource_dj/MOT16/test/MOT16-07) by extension 'python_setup_py'
+[0.258s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/deep_sort resource_dj/MOT16/test/MOT16-07/det) by extensions ['ignore', 'ignore_ament_install']
+[0.259s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/deep_sort resource_dj/MOT16/test/MOT16-07/det) by extension 'ignore'
+[0.259s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/deep_sort resource_dj/MOT16/test/MOT16-07/det) by extension 'ignore_ament_install'
+[0.259s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/deep_sort resource_dj/MOT16/test/MOT16-07/det) by extensions ['colcon_pkg']
+[0.259s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/deep_sort resource_dj/MOT16/test/MOT16-07/det) by extension 'colcon_pkg'
+[0.259s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/deep_sort resource_dj/MOT16/test/MOT16-07/det) by extensions ['colcon_meta']
+[0.259s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/deep_sort resource_dj/MOT16/test/MOT16-07/det) by extension 'colcon_meta'
+[0.259s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/deep_sort resource_dj/MOT16/test/MOT16-07/det) by extensions ['ros']
+[0.259s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/deep_sort resource_dj/MOT16/test/MOT16-07/det) by extension 'ros'
+[0.259s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/deep_sort resource_dj/MOT16/test/MOT16-07/det) by extensions ['cmake', 'python']
+[0.259s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/deep_sort resource_dj/MOT16/test/MOT16-07/det) by extension 'cmake'
+[0.259s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/deep_sort resource_dj/MOT16/test/MOT16-07/det) by extension 'python'
+[0.259s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/deep_sort resource_dj/MOT16/test/MOT16-07/det) by extensions ['python_setup_py']
+[0.259s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/deep_sort resource_dj/MOT16/test/MOT16-07/det) by extension 'python_setup_py'
+[0.260s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/deep_sort resource_dj/MOT16/test/MOT16-07/img1) by extensions ['ignore', 'ignore_ament_install']
+[0.260s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/deep_sort resource_dj/MOT16/test/MOT16-07/img1) by extension 'ignore'
+[0.260s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/deep_sort resource_dj/MOT16/test/MOT16-07/img1) by extension 'ignore_ament_install'
+[0.260s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/deep_sort resource_dj/MOT16/test/MOT16-07/img1) by extensions ['colcon_pkg']
+[0.260s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/deep_sort resource_dj/MOT16/test/MOT16-07/img1) by extension 'colcon_pkg'
+[0.260s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/deep_sort resource_dj/MOT16/test/MOT16-07/img1) by extensions ['colcon_meta']
+[0.260s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/deep_sort resource_dj/MOT16/test/MOT16-07/img1) by extension 'colcon_meta'
+[0.260s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/deep_sort resource_dj/MOT16/test/MOT16-07/img1) by extensions ['ros']
+[0.260s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/deep_sort resource_dj/MOT16/test/MOT16-07/img1) by extension 'ros'
+[0.260s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/deep_sort resource_dj/MOT16/test/MOT16-07/img1) by extensions ['cmake', 'python']
+[0.260s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/deep_sort resource_dj/MOT16/test/MOT16-07/img1) by extension 'cmake'
+[0.260s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/deep_sort resource_dj/MOT16/test/MOT16-07/img1) by extension 'python'
+[0.260s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/deep_sort resource_dj/MOT16/test/MOT16-07/img1) by extensions ['python_setup_py']
+[0.260s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/deep_sort resource_dj/MOT16/test/MOT16-07/img1) by extension 'python_setup_py'
+[0.260s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/deep_sort resource_dj/MOT16/test/MOT16-08) by extensions ['ignore', 'ignore_ament_install']
+[0.261s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/deep_sort resource_dj/MOT16/test/MOT16-08) by extension 'ignore'
+[0.261s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/deep_sort resource_dj/MOT16/test/MOT16-08) by extension 'ignore_ament_install'
+[0.261s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/deep_sort resource_dj/MOT16/test/MOT16-08) by extensions ['colcon_pkg']
+[0.261s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/deep_sort resource_dj/MOT16/test/MOT16-08) by extension 'colcon_pkg'
+[0.261s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/deep_sort resource_dj/MOT16/test/MOT16-08) by extensions ['colcon_meta']
+[0.261s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/deep_sort resource_dj/MOT16/test/MOT16-08) by extension 'colcon_meta'
+[0.261s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/deep_sort resource_dj/MOT16/test/MOT16-08) by extensions ['ros']
+[0.261s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/deep_sort resource_dj/MOT16/test/MOT16-08) by extension 'ros'
+[0.261s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/deep_sort resource_dj/MOT16/test/MOT16-08) by extensions ['cmake', 'python']
+[0.261s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/deep_sort resource_dj/MOT16/test/MOT16-08) by extension 'cmake'
+[0.261s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/deep_sort resource_dj/MOT16/test/MOT16-08) by extension 'python'
+[0.261s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/deep_sort resource_dj/MOT16/test/MOT16-08) by extensions ['python_setup_py']
+[0.261s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/deep_sort resource_dj/MOT16/test/MOT16-08) by extension 'python_setup_py'
+[0.261s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/deep_sort resource_dj/MOT16/test/MOT16-08/det) by extensions ['ignore', 'ignore_ament_install']
+[0.261s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/deep_sort resource_dj/MOT16/test/MOT16-08/det) by extension 'ignore'
+[0.261s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/deep_sort resource_dj/MOT16/test/MOT16-08/det) by extension 'ignore_ament_install'
+[0.261s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/deep_sort resource_dj/MOT16/test/MOT16-08/det) by extensions ['colcon_pkg']
+[0.261s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/deep_sort resource_dj/MOT16/test/MOT16-08/det) by extension 'colcon_pkg'
+[0.261s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/deep_sort resource_dj/MOT16/test/MOT16-08/det) by extensions ['colcon_meta']
+[0.261s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/deep_sort resource_dj/MOT16/test/MOT16-08/det) by extension 'colcon_meta'
+[0.261s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/deep_sort resource_dj/MOT16/test/MOT16-08/det) by extensions ['ros']
+[0.262s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/deep_sort resource_dj/MOT16/test/MOT16-08/det) by extension 'ros'
+[0.262s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/deep_sort resource_dj/MOT16/test/MOT16-08/det) by extensions ['cmake', 'python']
+[0.262s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/deep_sort resource_dj/MOT16/test/MOT16-08/det) by extension 'cmake'
+[0.262s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/deep_sort resource_dj/MOT16/test/MOT16-08/det) by extension 'python'
+[0.262s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/deep_sort resource_dj/MOT16/test/MOT16-08/det) by extensions ['python_setup_py']
+[0.262s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/deep_sort resource_dj/MOT16/test/MOT16-08/det) by extension 'python_setup_py'
+[0.262s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/deep_sort resource_dj/MOT16/test/MOT16-08/img1) by extensions ['ignore', 'ignore_ament_install']
+[0.262s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/deep_sort resource_dj/MOT16/test/MOT16-08/img1) by extension 'ignore'
+[0.262s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/deep_sort resource_dj/MOT16/test/MOT16-08/img1) by extension 'ignore_ament_install'
+[0.263s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/deep_sort resource_dj/MOT16/test/MOT16-08/img1) by extensions ['colcon_pkg']
+[0.263s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/deep_sort resource_dj/MOT16/test/MOT16-08/img1) by extension 'colcon_pkg'
+[0.263s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/deep_sort resource_dj/MOT16/test/MOT16-08/img1) by extensions ['colcon_meta']
+[0.263s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/deep_sort resource_dj/MOT16/test/MOT16-08/img1) by extension 'colcon_meta'
+[0.263s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/deep_sort resource_dj/MOT16/test/MOT16-08/img1) by extensions ['ros']
+[0.263s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/deep_sort resource_dj/MOT16/test/MOT16-08/img1) by extension 'ros'
+[0.263s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/deep_sort resource_dj/MOT16/test/MOT16-08/img1) by extensions ['cmake', 'python']
+[0.263s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/deep_sort resource_dj/MOT16/test/MOT16-08/img1) by extension 'cmake'
+[0.263s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/deep_sort resource_dj/MOT16/test/MOT16-08/img1) by extension 'python'
+[0.263s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/deep_sort resource_dj/MOT16/test/MOT16-08/img1) by extensions ['python_setup_py']
+[0.263s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/deep_sort resource_dj/MOT16/test/MOT16-08/img1) by extension 'python_setup_py'
+[0.263s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/deep_sort resource_dj/MOT16/test/MOT16-12) by extensions ['ignore', 'ignore_ament_install']
+[0.263s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/deep_sort resource_dj/MOT16/test/MOT16-12) by extension 'ignore'
+[0.263s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/deep_sort resource_dj/MOT16/test/MOT16-12) by extension 'ignore_ament_install'
+[0.263s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/deep_sort resource_dj/MOT16/test/MOT16-12) by extensions ['colcon_pkg']
+[0.263s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/deep_sort resource_dj/MOT16/test/MOT16-12) by extension 'colcon_pkg'
+[0.263s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/deep_sort resource_dj/MOT16/test/MOT16-12) by extensions ['colcon_meta']
+[0.263s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/deep_sort resource_dj/MOT16/test/MOT16-12) by extension 'colcon_meta'
+[0.263s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/deep_sort resource_dj/MOT16/test/MOT16-12) by extensions ['ros']
+[0.263s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/deep_sort resource_dj/MOT16/test/MOT16-12) by extension 'ros'
+[0.263s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/deep_sort resource_dj/MOT16/test/MOT16-12) by extensions ['cmake', 'python']
+[0.263s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/deep_sort resource_dj/MOT16/test/MOT16-12) by extension 'cmake'
+[0.263s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/deep_sort resource_dj/MOT16/test/MOT16-12) by extension 'python'
+[0.263s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/deep_sort resource_dj/MOT16/test/MOT16-12) by extensions ['python_setup_py']
+[0.264s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/deep_sort resource_dj/MOT16/test/MOT16-12) by extension 'python_setup_py'
+[0.264s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/deep_sort resource_dj/MOT16/test/MOT16-12/det) by extensions ['ignore', 'ignore_ament_install']
+[0.264s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/deep_sort resource_dj/MOT16/test/MOT16-12/det) by extension 'ignore'
+[0.264s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/deep_sort resource_dj/MOT16/test/MOT16-12/det) by extension 'ignore_ament_install'
+[0.264s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/deep_sort resource_dj/MOT16/test/MOT16-12/det) by extensions ['colcon_pkg']
+[0.264s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/deep_sort resource_dj/MOT16/test/MOT16-12/det) by extension 'colcon_pkg'
+[0.264s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/deep_sort resource_dj/MOT16/test/MOT16-12/det) by extensions ['colcon_meta']
+[0.264s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/deep_sort resource_dj/MOT16/test/MOT16-12/det) by extension 'colcon_meta'
+[0.264s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/deep_sort resource_dj/MOT16/test/MOT16-12/det) by extensions ['ros']
+[0.264s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/deep_sort resource_dj/MOT16/test/MOT16-12/det) by extension 'ros'
+[0.264s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/deep_sort resource_dj/MOT16/test/MOT16-12/det) by extensions ['cmake', 'python']
+[0.264s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/deep_sort resource_dj/MOT16/test/MOT16-12/det) by extension 'cmake'
+[0.264s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/deep_sort resource_dj/MOT16/test/MOT16-12/det) by extension 'python'
+[0.264s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/deep_sort resource_dj/MOT16/test/MOT16-12/det) by extensions ['python_setup_py']
+[0.264s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/deep_sort resource_dj/MOT16/test/MOT16-12/det) by extension 'python_setup_py'
+[0.265s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/deep_sort resource_dj/MOT16/test/MOT16-12/img1) by extensions ['ignore', 'ignore_ament_install']
+[0.265s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/deep_sort resource_dj/MOT16/test/MOT16-12/img1) by extension 'ignore'
+[0.265s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/deep_sort resource_dj/MOT16/test/MOT16-12/img1) by extension 'ignore_ament_install'
+[0.265s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/deep_sort resource_dj/MOT16/test/MOT16-12/img1) by extensions ['colcon_pkg']
+[0.265s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/deep_sort resource_dj/MOT16/test/MOT16-12/img1) by extension 'colcon_pkg'
+[0.265s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/deep_sort resource_dj/MOT16/test/MOT16-12/img1) by extensions ['colcon_meta']
+[0.265s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/deep_sort resource_dj/MOT16/test/MOT16-12/img1) by extension 'colcon_meta'
+[0.265s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/deep_sort resource_dj/MOT16/test/MOT16-12/img1) by extensions ['ros']
+[0.265s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/deep_sort resource_dj/MOT16/test/MOT16-12/img1) by extension 'ros'
+[0.265s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/deep_sort resource_dj/MOT16/test/MOT16-12/img1) by extensions ['cmake', 'python']
+[0.265s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/deep_sort resource_dj/MOT16/test/MOT16-12/img1) by extension 'cmake'
+[0.265s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/deep_sort resource_dj/MOT16/test/MOT16-12/img1) by extension 'python'
+[0.265s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/deep_sort resource_dj/MOT16/test/MOT16-12/img1) by extensions ['python_setup_py']
+[0.265s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/deep_sort resource_dj/MOT16/test/MOT16-12/img1) by extension 'python_setup_py'
+[0.266s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/deep_sort resource_dj/MOT16/test/MOT16-14) by extensions ['ignore', 'ignore_ament_install']
+[0.266s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/deep_sort resource_dj/MOT16/test/MOT16-14) by extension 'ignore'
+[0.266s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/deep_sort resource_dj/MOT16/test/MOT16-14) by extension 'ignore_ament_install'
+[0.266s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/deep_sort resource_dj/MOT16/test/MOT16-14) by extensions ['colcon_pkg']
+[0.266s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/deep_sort resource_dj/MOT16/test/MOT16-14) by extension 'colcon_pkg'
+[0.266s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/deep_sort resource_dj/MOT16/test/MOT16-14) by extensions ['colcon_meta']
+[0.266s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/deep_sort resource_dj/MOT16/test/MOT16-14) by extension 'colcon_meta'
+[0.266s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/deep_sort resource_dj/MOT16/test/MOT16-14) by extensions ['ros']
+[0.266s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/deep_sort resource_dj/MOT16/test/MOT16-14) by extension 'ros'
+[0.266s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/deep_sort resource_dj/MOT16/test/MOT16-14) by extensions ['cmake', 'python']
+[0.266s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/deep_sort resource_dj/MOT16/test/MOT16-14) by extension 'cmake'
+[0.266s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/deep_sort resource_dj/MOT16/test/MOT16-14) by extension 'python'
+[0.266s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/deep_sort resource_dj/MOT16/test/MOT16-14) by extensions ['python_setup_py']
+[0.266s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/deep_sort resource_dj/MOT16/test/MOT16-14) by extension 'python_setup_py'
+[0.266s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/deep_sort resource_dj/MOT16/test/MOT16-14/det) by extensions ['ignore', 'ignore_ament_install']
+[0.266s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/deep_sort resource_dj/MOT16/test/MOT16-14/det) by extension 'ignore'
+[0.266s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/deep_sort resource_dj/MOT16/test/MOT16-14/det) by extension 'ignore_ament_install'
+[0.266s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/deep_sort resource_dj/MOT16/test/MOT16-14/det) by extensions ['colcon_pkg']
+[0.266s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/deep_sort resource_dj/MOT16/test/MOT16-14/det) by extension 'colcon_pkg'
+[0.266s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/deep_sort resource_dj/MOT16/test/MOT16-14/det) by extensions ['colcon_meta']
+[0.266s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/deep_sort resource_dj/MOT16/test/MOT16-14/det) by extension 'colcon_meta'
+[0.267s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/deep_sort resource_dj/MOT16/test/MOT16-14/det) by extensions ['ros']
+[0.267s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/deep_sort resource_dj/MOT16/test/MOT16-14/det) by extension 'ros'
+[0.267s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/deep_sort resource_dj/MOT16/test/MOT16-14/det) by extensions ['cmake', 'python']
+[0.267s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/deep_sort resource_dj/MOT16/test/MOT16-14/det) by extension 'cmake'
+[0.267s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/deep_sort resource_dj/MOT16/test/MOT16-14/det) by extension 'python'
+[0.267s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/deep_sort resource_dj/MOT16/test/MOT16-14/det) by extensions ['python_setup_py']
+[0.267s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/deep_sort resource_dj/MOT16/test/MOT16-14/det) by extension 'python_setup_py'
+[0.268s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/deep_sort resource_dj/MOT16/test/MOT16-14/img1) by extensions ['ignore', 'ignore_ament_install']
+[0.268s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/deep_sort resource_dj/MOT16/test/MOT16-14/img1) by extension 'ignore'
+[0.268s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/deep_sort resource_dj/MOT16/test/MOT16-14/img1) by extension 'ignore_ament_install'
+[0.268s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/deep_sort resource_dj/MOT16/test/MOT16-14/img1) by extensions ['colcon_pkg']
+[0.268s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/deep_sort resource_dj/MOT16/test/MOT16-14/img1) by extension 'colcon_pkg'
+[0.268s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/deep_sort resource_dj/MOT16/test/MOT16-14/img1) by extensions ['colcon_meta']
+[0.268s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/deep_sort resource_dj/MOT16/test/MOT16-14/img1) by extension 'colcon_meta'
+[0.268s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/deep_sort resource_dj/MOT16/test/MOT16-14/img1) by extensions ['ros']
+[0.268s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/deep_sort resource_dj/MOT16/test/MOT16-14/img1) by extension 'ros'
+[0.268s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/deep_sort resource_dj/MOT16/test/MOT16-14/img1) by extensions ['cmake', 'python']
+[0.268s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/deep_sort resource_dj/MOT16/test/MOT16-14/img1) by extension 'cmake'
+[0.268s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/deep_sort resource_dj/MOT16/test/MOT16-14/img1) by extension 'python'
+[0.268s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/deep_sort resource_dj/MOT16/test/MOT16-14/img1) by extensions ['python_setup_py']
+[0.268s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/deep_sort resource_dj/MOT16/test/MOT16-14/img1) by extension 'python_setup_py'
+[0.268s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/deep_sort resource_dj/MOT16/train) by extensions ['ignore', 'ignore_ament_install']
+[0.268s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/deep_sort resource_dj/MOT16/train) by extension 'ignore'
+[0.268s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/deep_sort resource_dj/MOT16/train) by extension 'ignore_ament_install'
+[0.268s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/deep_sort resource_dj/MOT16/train) by extensions ['colcon_pkg']
+[0.268s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/deep_sort resource_dj/MOT16/train) by extension 'colcon_pkg'
+[0.268s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/deep_sort resource_dj/MOT16/train) by extensions ['colcon_meta']
+[0.268s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/deep_sort resource_dj/MOT16/train) by extension 'colcon_meta'
+[0.268s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/deep_sort resource_dj/MOT16/train) by extensions ['ros']
+[0.268s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/deep_sort resource_dj/MOT16/train) by extension 'ros'
+[0.269s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/deep_sort resource_dj/MOT16/train) by extensions ['cmake', 'python']
+[0.269s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/deep_sort resource_dj/MOT16/train) by extension 'cmake'
+[0.269s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/deep_sort resource_dj/MOT16/train) by extension 'python'
+[0.269s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/deep_sort resource_dj/MOT16/train) by extensions ['python_setup_py']
+[0.269s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/deep_sort resource_dj/MOT16/train) by extension 'python_setup_py'
+[0.269s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/deep_sort resource_dj/MOT16/train/MOT16-02) by extensions ['ignore', 'ignore_ament_install']
+[0.269s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/deep_sort resource_dj/MOT16/train/MOT16-02) by extension 'ignore'
+[0.269s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/deep_sort resource_dj/MOT16/train/MOT16-02) by extension 'ignore_ament_install'
+[0.269s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/deep_sort resource_dj/MOT16/train/MOT16-02) by extensions ['colcon_pkg']
+[0.269s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/deep_sort resource_dj/MOT16/train/MOT16-02) by extension 'colcon_pkg'
+[0.269s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/deep_sort resource_dj/MOT16/train/MOT16-02) by extensions ['colcon_meta']
+[0.269s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/deep_sort resource_dj/MOT16/train/MOT16-02) by extension 'colcon_meta'
+[0.269s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/deep_sort resource_dj/MOT16/train/MOT16-02) by extensions ['ros']
+[0.269s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/deep_sort resource_dj/MOT16/train/MOT16-02) by extension 'ros'
+[0.269s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/deep_sort resource_dj/MOT16/train/MOT16-02) by extensions ['cmake', 'python']
+[0.269s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/deep_sort resource_dj/MOT16/train/MOT16-02) by extension 'cmake'
+[0.269s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/deep_sort resource_dj/MOT16/train/MOT16-02) by extension 'python'
+[0.269s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/deep_sort resource_dj/MOT16/train/MOT16-02) by extensions ['python_setup_py']
+[0.269s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/deep_sort resource_dj/MOT16/train/MOT16-02) by extension 'python_setup_py'
+[0.269s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/deep_sort resource_dj/MOT16/train/MOT16-02/det) by extensions ['ignore', 'ignore_ament_install']
+[0.269s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/deep_sort resource_dj/MOT16/train/MOT16-02/det) by extension 'ignore'
+[0.270s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/deep_sort resource_dj/MOT16/train/MOT16-02/det) by extension 'ignore_ament_install'
+[0.270s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/deep_sort resource_dj/MOT16/train/MOT16-02/det) by extensions ['colcon_pkg']
+[0.270s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/deep_sort resource_dj/MOT16/train/MOT16-02/det) by extension 'colcon_pkg'
+[0.270s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/deep_sort resource_dj/MOT16/train/MOT16-02/det) by extensions ['colcon_meta']
+[0.270s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/deep_sort resource_dj/MOT16/train/MOT16-02/det) by extension 'colcon_meta'
+[0.270s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/deep_sort resource_dj/MOT16/train/MOT16-02/det) by extensions ['ros']
+[0.270s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/deep_sort resource_dj/MOT16/train/MOT16-02/det) by extension 'ros'
+[0.270s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/deep_sort resource_dj/MOT16/train/MOT16-02/det) by extensions ['cmake', 'python']
+[0.270s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/deep_sort resource_dj/MOT16/train/MOT16-02/det) by extension 'cmake'
+[0.270s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/deep_sort resource_dj/MOT16/train/MOT16-02/det) by extension 'python'
+[0.270s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/deep_sort resource_dj/MOT16/train/MOT16-02/det) by extensions ['python_setup_py']
+[0.270s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/deep_sort resource_dj/MOT16/train/MOT16-02/det) by extension 'python_setup_py'
+[0.270s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/deep_sort resource_dj/MOT16/train/MOT16-02/gt) by extensions ['ignore', 'ignore_ament_install']
+[0.270s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/deep_sort resource_dj/MOT16/train/MOT16-02/gt) by extension 'ignore'
+[0.270s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/deep_sort resource_dj/MOT16/train/MOT16-02/gt) by extension 'ignore_ament_install'
+[0.270s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/deep_sort resource_dj/MOT16/train/MOT16-02/gt) by extensions ['colcon_pkg']
+[0.270s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/deep_sort resource_dj/MOT16/train/MOT16-02/gt) by extension 'colcon_pkg'
+[0.270s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/deep_sort resource_dj/MOT16/train/MOT16-02/gt) by extensions ['colcon_meta']
+[0.270s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/deep_sort resource_dj/MOT16/train/MOT16-02/gt) by extension 'colcon_meta'
+[0.270s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/deep_sort resource_dj/MOT16/train/MOT16-02/gt) by extensions ['ros']
+[0.270s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/deep_sort resource_dj/MOT16/train/MOT16-02/gt) by extension 'ros'
+[0.270s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/deep_sort resource_dj/MOT16/train/MOT16-02/gt) by extensions ['cmake', 'python']
+[0.270s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/deep_sort resource_dj/MOT16/train/MOT16-02/gt) by extension 'cmake'
+[0.270s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/deep_sort resource_dj/MOT16/train/MOT16-02/gt) by extension 'python'
+[0.271s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/deep_sort resource_dj/MOT16/train/MOT16-02/gt) by extensions ['python_setup_py']
+[0.271s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/deep_sort resource_dj/MOT16/train/MOT16-02/gt) by extension 'python_setup_py'
+[0.271s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/deep_sort resource_dj/MOT16/train/MOT16-02/img1) by extensions ['ignore', 'ignore_ament_install']
+[0.271s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/deep_sort resource_dj/MOT16/train/MOT16-02/img1) by extension 'ignore'
+[0.271s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/deep_sort resource_dj/MOT16/train/MOT16-02/img1) by extension 'ignore_ament_install'
+[0.271s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/deep_sort resource_dj/MOT16/train/MOT16-02/img1) by extensions ['colcon_pkg']
+[0.271s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/deep_sort resource_dj/MOT16/train/MOT16-02/img1) by extension 'colcon_pkg'
+[0.271s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/deep_sort resource_dj/MOT16/train/MOT16-02/img1) by extensions ['colcon_meta']
+[0.271s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/deep_sort resource_dj/MOT16/train/MOT16-02/img1) by extension 'colcon_meta'
+[0.271s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/deep_sort resource_dj/MOT16/train/MOT16-02/img1) by extensions ['ros']
+[0.271s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/deep_sort resource_dj/MOT16/train/MOT16-02/img1) by extension 'ros'
+[0.272s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/deep_sort resource_dj/MOT16/train/MOT16-02/img1) by extensions ['cmake', 'python']
+[0.272s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/deep_sort resource_dj/MOT16/train/MOT16-02/img1) by extension 'cmake'
+[0.272s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/deep_sort resource_dj/MOT16/train/MOT16-02/img1) by extension 'python'
+[0.272s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/deep_sort resource_dj/MOT16/train/MOT16-02/img1) by extensions ['python_setup_py']
+[0.272s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/deep_sort resource_dj/MOT16/train/MOT16-02/img1) by extension 'python_setup_py'
+[0.272s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/deep_sort resource_dj/MOT16/train/MOT16-04) by extensions ['ignore', 'ignore_ament_install']
+[0.272s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/deep_sort resource_dj/MOT16/train/MOT16-04) by extension 'ignore'
+[0.272s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/deep_sort resource_dj/MOT16/train/MOT16-04) by extension 'ignore_ament_install'
+[0.272s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/deep_sort resource_dj/MOT16/train/MOT16-04) by extensions ['colcon_pkg']
+[0.272s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/deep_sort resource_dj/MOT16/train/MOT16-04) by extension 'colcon_pkg'
+[0.272s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/deep_sort resource_dj/MOT16/train/MOT16-04) by extensions ['colcon_meta']
+[0.272s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/deep_sort resource_dj/MOT16/train/MOT16-04) by extension 'colcon_meta'
+[0.272s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/deep_sort resource_dj/MOT16/train/MOT16-04) by extensions ['ros']
+[0.272s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/deep_sort resource_dj/MOT16/train/MOT16-04) by extension 'ros'
+[0.272s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/deep_sort resource_dj/MOT16/train/MOT16-04) by extensions ['cmake', 'python']
+[0.272s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/deep_sort resource_dj/MOT16/train/MOT16-04) by extension 'cmake'
+[0.272s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/deep_sort resource_dj/MOT16/train/MOT16-04) by extension 'python'
+[0.272s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/deep_sort resource_dj/MOT16/train/MOT16-04) by extensions ['python_setup_py']
+[0.272s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/deep_sort resource_dj/MOT16/train/MOT16-04) by extension 'python_setup_py'
+[0.272s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/deep_sort resource_dj/MOT16/train/MOT16-04/det) by extensions ['ignore', 'ignore_ament_install']
+[0.272s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/deep_sort resource_dj/MOT16/train/MOT16-04/det) by extension 'ignore'
+[0.272s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/deep_sort resource_dj/MOT16/train/MOT16-04/det) by extension 'ignore_ament_install'
+[0.273s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/deep_sort resource_dj/MOT16/train/MOT16-04/det) by extensions ['colcon_pkg']
+[0.273s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/deep_sort resource_dj/MOT16/train/MOT16-04/det) by extension 'colcon_pkg'
+[0.273s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/deep_sort resource_dj/MOT16/train/MOT16-04/det) by extensions ['colcon_meta']
+[0.273s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/deep_sort resource_dj/MOT16/train/MOT16-04/det) by extension 'colcon_meta'
+[0.273s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/deep_sort resource_dj/MOT16/train/MOT16-04/det) by extensions ['ros']
+[0.273s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/deep_sort resource_dj/MOT16/train/MOT16-04/det) by extension 'ros'
+[0.273s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/deep_sort resource_dj/MOT16/train/MOT16-04/det) by extensions ['cmake', 'python']
+[0.273s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/deep_sort resource_dj/MOT16/train/MOT16-04/det) by extension 'cmake'
+[0.273s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/deep_sort resource_dj/MOT16/train/MOT16-04/det) by extension 'python'
+[0.273s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/deep_sort resource_dj/MOT16/train/MOT16-04/det) by extensions ['python_setup_py']
+[0.273s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/deep_sort resource_dj/MOT16/train/MOT16-04/det) by extension 'python_setup_py'
+[0.273s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/deep_sort resource_dj/MOT16/train/MOT16-04/gt) by extensions ['ignore', 'ignore_ament_install']
+[0.273s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/deep_sort resource_dj/MOT16/train/MOT16-04/gt) by extension 'ignore'
+[0.273s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/deep_sort resource_dj/MOT16/train/MOT16-04/gt) by extension 'ignore_ament_install'
+[0.273s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/deep_sort resource_dj/MOT16/train/MOT16-04/gt) by extensions ['colcon_pkg']
+[0.273s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/deep_sort resource_dj/MOT16/train/MOT16-04/gt) by extension 'colcon_pkg'
+[0.273s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/deep_sort resource_dj/MOT16/train/MOT16-04/gt) by extensions ['colcon_meta']
+[0.273s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/deep_sort resource_dj/MOT16/train/MOT16-04/gt) by extension 'colcon_meta'
+[0.273s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/deep_sort resource_dj/MOT16/train/MOT16-04/gt) by extensions ['ros']
+[0.273s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/deep_sort resource_dj/MOT16/train/MOT16-04/gt) by extension 'ros'
+[0.273s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/deep_sort resource_dj/MOT16/train/MOT16-04/gt) by extensions ['cmake', 'python']
+[0.273s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/deep_sort resource_dj/MOT16/train/MOT16-04/gt) by extension 'cmake'
+[0.273s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/deep_sort resource_dj/MOT16/train/MOT16-04/gt) by extension 'python'
+[0.273s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/deep_sort resource_dj/MOT16/train/MOT16-04/gt) by extensions ['python_setup_py']
+[0.273s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/deep_sort resource_dj/MOT16/train/MOT16-04/gt) by extension 'python_setup_py'
+[0.274s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/deep_sort resource_dj/MOT16/train/MOT16-04/img1) by extensions ['ignore', 'ignore_ament_install']
+[0.274s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/deep_sort resource_dj/MOT16/train/MOT16-04/img1) by extension 'ignore'
+[0.274s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/deep_sort resource_dj/MOT16/train/MOT16-04/img1) by extension 'ignore_ament_install'
+[0.275s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/deep_sort resource_dj/MOT16/train/MOT16-04/img1) by extensions ['colcon_pkg']
+[0.275s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/deep_sort resource_dj/MOT16/train/MOT16-04/img1) by extension 'colcon_pkg'
+[0.275s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/deep_sort resource_dj/MOT16/train/MOT16-04/img1) by extensions ['colcon_meta']
+[0.275s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/deep_sort resource_dj/MOT16/train/MOT16-04/img1) by extension 'colcon_meta'
+[0.275s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/deep_sort resource_dj/MOT16/train/MOT16-04/img1) by extensions ['ros']
+[0.275s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/deep_sort resource_dj/MOT16/train/MOT16-04/img1) by extension 'ros'
+[0.275s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/deep_sort resource_dj/MOT16/train/MOT16-04/img1) by extensions ['cmake', 'python']
+[0.275s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/deep_sort resource_dj/MOT16/train/MOT16-04/img1) by extension 'cmake'
+[0.275s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/deep_sort resource_dj/MOT16/train/MOT16-04/img1) by extension 'python'
+[0.275s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/deep_sort resource_dj/MOT16/train/MOT16-04/img1) by extensions ['python_setup_py']
+[0.275s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/deep_sort resource_dj/MOT16/train/MOT16-04/img1) by extension 'python_setup_py'
+[0.275s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/deep_sort resource_dj/MOT16/train/MOT16-05) by extensions ['ignore', 'ignore_ament_install']
+[0.275s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/deep_sort resource_dj/MOT16/train/MOT16-05) by extension 'ignore'
+[0.275s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/deep_sort resource_dj/MOT16/train/MOT16-05) by extension 'ignore_ament_install'
+[0.275s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/deep_sort resource_dj/MOT16/train/MOT16-05) by extensions ['colcon_pkg']
+[0.275s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/deep_sort resource_dj/MOT16/train/MOT16-05) by extension 'colcon_pkg'
+[0.275s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/deep_sort resource_dj/MOT16/train/MOT16-05) by extensions ['colcon_meta']
+[0.275s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/deep_sort resource_dj/MOT16/train/MOT16-05) by extension 'colcon_meta'
+[0.275s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/deep_sort resource_dj/MOT16/train/MOT16-05) by extensions ['ros']
+[0.275s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/deep_sort resource_dj/MOT16/train/MOT16-05) by extension 'ros'
+[0.275s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/deep_sort resource_dj/MOT16/train/MOT16-05) by extensions ['cmake', 'python']
+[0.275s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/deep_sort resource_dj/MOT16/train/MOT16-05) by extension 'cmake'
+[0.275s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/deep_sort resource_dj/MOT16/train/MOT16-05) by extension 'python'
+[0.275s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/deep_sort resource_dj/MOT16/train/MOT16-05) by extensions ['python_setup_py']
+[0.276s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/deep_sort resource_dj/MOT16/train/MOT16-05) by extension 'python_setup_py'
+[0.276s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/deep_sort resource_dj/MOT16/train/MOT16-05/det) by extensions ['ignore', 'ignore_ament_install']
+[0.276s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/deep_sort resource_dj/MOT16/train/MOT16-05/det) by extension 'ignore'
+[0.276s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/deep_sort resource_dj/MOT16/train/MOT16-05/det) by extension 'ignore_ament_install'
+[0.276s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/deep_sort resource_dj/MOT16/train/MOT16-05/det) by extensions ['colcon_pkg']
+[0.276s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/deep_sort resource_dj/MOT16/train/MOT16-05/det) by extension 'colcon_pkg'
+[0.276s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/deep_sort resource_dj/MOT16/train/MOT16-05/det) by extensions ['colcon_meta']
+[0.276s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/deep_sort resource_dj/MOT16/train/MOT16-05/det) by extension 'colcon_meta'
+[0.276s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/deep_sort resource_dj/MOT16/train/MOT16-05/det) by extensions ['ros']
+[0.276s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/deep_sort resource_dj/MOT16/train/MOT16-05/det) by extension 'ros'
+[0.276s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/deep_sort resource_dj/MOT16/train/MOT16-05/det) by extensions ['cmake', 'python']
+[0.276s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/deep_sort resource_dj/MOT16/train/MOT16-05/det) by extension 'cmake'
+[0.276s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/deep_sort resource_dj/MOT16/train/MOT16-05/det) by extension 'python'
+[0.276s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/deep_sort resource_dj/MOT16/train/MOT16-05/det) by extensions ['python_setup_py']
+[0.276s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/deep_sort resource_dj/MOT16/train/MOT16-05/det) by extension 'python_setup_py'
+[0.276s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/deep_sort resource_dj/MOT16/train/MOT16-05/gt) by extensions ['ignore', 'ignore_ament_install']
+[0.276s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/deep_sort resource_dj/MOT16/train/MOT16-05/gt) by extension 'ignore'
+[0.276s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/deep_sort resource_dj/MOT16/train/MOT16-05/gt) by extension 'ignore_ament_install'
+[0.276s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/deep_sort resource_dj/MOT16/train/MOT16-05/gt) by extensions ['colcon_pkg']
+[0.276s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/deep_sort resource_dj/MOT16/train/MOT16-05/gt) by extension 'colcon_pkg'
+[0.276s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/deep_sort resource_dj/MOT16/train/MOT16-05/gt) by extensions ['colcon_meta']
+[0.276s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/deep_sort resource_dj/MOT16/train/MOT16-05/gt) by extension 'colcon_meta'
+[0.277s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/deep_sort resource_dj/MOT16/train/MOT16-05/gt) by extensions ['ros']
+[0.277s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/deep_sort resource_dj/MOT16/train/MOT16-05/gt) by extension 'ros'
+[0.277s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/deep_sort resource_dj/MOT16/train/MOT16-05/gt) by extensions ['cmake', 'python']
+[0.277s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/deep_sort resource_dj/MOT16/train/MOT16-05/gt) by extension 'cmake'
+[0.277s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/deep_sort resource_dj/MOT16/train/MOT16-05/gt) by extension 'python'
+[0.277s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/deep_sort resource_dj/MOT16/train/MOT16-05/gt) by extensions ['python_setup_py']
+[0.277s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/deep_sort resource_dj/MOT16/train/MOT16-05/gt) by extension 'python_setup_py'
+[0.277s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/deep_sort resource_dj/MOT16/train/MOT16-05/img1) by extensions ['ignore', 'ignore_ament_install']
+[0.278s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/deep_sort resource_dj/MOT16/train/MOT16-05/img1) by extension 'ignore'
+[0.278s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/deep_sort resource_dj/MOT16/train/MOT16-05/img1) by extension 'ignore_ament_install'
+[0.278s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/deep_sort resource_dj/MOT16/train/MOT16-05/img1) by extensions ['colcon_pkg']
+[0.278s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/deep_sort resource_dj/MOT16/train/MOT16-05/img1) by extension 'colcon_pkg'
+[0.278s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/deep_sort resource_dj/MOT16/train/MOT16-05/img1) by extensions ['colcon_meta']
+[0.278s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/deep_sort resource_dj/MOT16/train/MOT16-05/img1) by extension 'colcon_meta'
+[0.278s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/deep_sort resource_dj/MOT16/train/MOT16-05/img1) by extensions ['ros']
+[0.278s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/deep_sort resource_dj/MOT16/train/MOT16-05/img1) by extension 'ros'
+[0.278s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/deep_sort resource_dj/MOT16/train/MOT16-05/img1) by extensions ['cmake', 'python']
+[0.278s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/deep_sort resource_dj/MOT16/train/MOT16-05/img1) by extension 'cmake'
+[0.278s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/deep_sort resource_dj/MOT16/train/MOT16-05/img1) by extension 'python'
+[0.278s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/deep_sort resource_dj/MOT16/train/MOT16-05/img1) by extensions ['python_setup_py']
+[0.278s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/deep_sort resource_dj/MOT16/train/MOT16-05/img1) by extension 'python_setup_py'
+[0.278s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/deep_sort resource_dj/MOT16/train/MOT16-09) by extensions ['ignore', 'ignore_ament_install']
+[0.278s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/deep_sort resource_dj/MOT16/train/MOT16-09) by extension 'ignore'
+[0.278s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/deep_sort resource_dj/MOT16/train/MOT16-09) by extension 'ignore_ament_install'
+[0.278s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/deep_sort resource_dj/MOT16/train/MOT16-09) by extensions ['colcon_pkg']
+[0.278s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/deep_sort resource_dj/MOT16/train/MOT16-09) by extension 'colcon_pkg'
+[0.278s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/deep_sort resource_dj/MOT16/train/MOT16-09) by extensions ['colcon_meta']
+[0.278s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/deep_sort resource_dj/MOT16/train/MOT16-09) by extension 'colcon_meta'
+[0.278s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/deep_sort resource_dj/MOT16/train/MOT16-09) by extensions ['ros']
+[0.278s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/deep_sort resource_dj/MOT16/train/MOT16-09) by extension 'ros'
+[0.278s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/deep_sort resource_dj/MOT16/train/MOT16-09) by extensions ['cmake', 'python']
+[0.279s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/deep_sort resource_dj/MOT16/train/MOT16-09) by extension 'cmake'
+[0.279s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/deep_sort resource_dj/MOT16/train/MOT16-09) by extension 'python'
+[0.279s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/deep_sort resource_dj/MOT16/train/MOT16-09) by extensions ['python_setup_py']
+[0.279s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/deep_sort resource_dj/MOT16/train/MOT16-09) by extension 'python_setup_py'
+[0.279s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/deep_sort resource_dj/MOT16/train/MOT16-09/det) by extensions ['ignore', 'ignore_ament_install']
+[0.279s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/deep_sort resource_dj/MOT16/train/MOT16-09/det) by extension 'ignore'
+[0.279s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/deep_sort resource_dj/MOT16/train/MOT16-09/det) by extension 'ignore_ament_install'
+[0.279s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/deep_sort resource_dj/MOT16/train/MOT16-09/det) by extensions ['colcon_pkg']
+[0.279s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/deep_sort resource_dj/MOT16/train/MOT16-09/det) by extension 'colcon_pkg'
+[0.279s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/deep_sort resource_dj/MOT16/train/MOT16-09/det) by extensions ['colcon_meta']
+[0.279s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/deep_sort resource_dj/MOT16/train/MOT16-09/det) by extension 'colcon_meta'
+[0.279s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/deep_sort resource_dj/MOT16/train/MOT16-09/det) by extensions ['ros']
+[0.279s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/deep_sort resource_dj/MOT16/train/MOT16-09/det) by extension 'ros'
+[0.279s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/deep_sort resource_dj/MOT16/train/MOT16-09/det) by extensions ['cmake', 'python']
+[0.279s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/deep_sort resource_dj/MOT16/train/MOT16-09/det) by extension 'cmake'
+[0.279s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/deep_sort resource_dj/MOT16/train/MOT16-09/det) by extension 'python'
+[0.279s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/deep_sort resource_dj/MOT16/train/MOT16-09/det) by extensions ['python_setup_py']
+[0.279s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/deep_sort resource_dj/MOT16/train/MOT16-09/det) by extension 'python_setup_py'
+[0.279s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/deep_sort resource_dj/MOT16/train/MOT16-09/gt) by extensions ['ignore', 'ignore_ament_install']
+[0.279s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/deep_sort resource_dj/MOT16/train/MOT16-09/gt) by extension 'ignore'
+[0.279s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/deep_sort resource_dj/MOT16/train/MOT16-09/gt) by extension 'ignore_ament_install'
+[0.279s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/deep_sort resource_dj/MOT16/train/MOT16-09/gt) by extensions ['colcon_pkg']
+[0.280s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/deep_sort resource_dj/MOT16/train/MOT16-09/gt) by extension 'colcon_pkg'
+[0.280s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/deep_sort resource_dj/MOT16/train/MOT16-09/gt) by extensions ['colcon_meta']
+[0.280s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/deep_sort resource_dj/MOT16/train/MOT16-09/gt) by extension 'colcon_meta'
+[0.280s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/deep_sort resource_dj/MOT16/train/MOT16-09/gt) by extensions ['ros']
+[0.280s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/deep_sort resource_dj/MOT16/train/MOT16-09/gt) by extension 'ros'
+[0.280s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/deep_sort resource_dj/MOT16/train/MOT16-09/gt) by extensions ['cmake', 'python']
+[0.280s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/deep_sort resource_dj/MOT16/train/MOT16-09/gt) by extension 'cmake'
+[0.280s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/deep_sort resource_dj/MOT16/train/MOT16-09/gt) by extension 'python'
+[0.280s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/deep_sort resource_dj/MOT16/train/MOT16-09/gt) by extensions ['python_setup_py']
+[0.280s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/deep_sort resource_dj/MOT16/train/MOT16-09/gt) by extension 'python_setup_py'
+[0.280s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/deep_sort resource_dj/MOT16/train/MOT16-09/img1) by extensions ['ignore', 'ignore_ament_install']
+[0.280s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/deep_sort resource_dj/MOT16/train/MOT16-09/img1) by extension 'ignore'
+[0.280s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/deep_sort resource_dj/MOT16/train/MOT16-09/img1) by extension 'ignore_ament_install'
+[0.281s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/deep_sort resource_dj/MOT16/train/MOT16-09/img1) by extensions ['colcon_pkg']
+[0.281s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/deep_sort resource_dj/MOT16/train/MOT16-09/img1) by extension 'colcon_pkg'
+[0.281s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/deep_sort resource_dj/MOT16/train/MOT16-09/img1) by extensions ['colcon_meta']
+[0.281s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/deep_sort resource_dj/MOT16/train/MOT16-09/img1) by extension 'colcon_meta'
+[0.281s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/deep_sort resource_dj/MOT16/train/MOT16-09/img1) by extensions ['ros']
+[0.281s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/deep_sort resource_dj/MOT16/train/MOT16-09/img1) by extension 'ros'
+[0.281s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/deep_sort resource_dj/MOT16/train/MOT16-09/img1) by extensions ['cmake', 'python']
+[0.281s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/deep_sort resource_dj/MOT16/train/MOT16-09/img1) by extension 'cmake'
+[0.281s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/deep_sort resource_dj/MOT16/train/MOT16-09/img1) by extension 'python'
+[0.281s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/deep_sort resource_dj/MOT16/train/MOT16-09/img1) by extensions ['python_setup_py']
+[0.281s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/deep_sort resource_dj/MOT16/train/MOT16-09/img1) by extension 'python_setup_py'
+[0.281s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/deep_sort resource_dj/MOT16/train/MOT16-10) by extensions ['ignore', 'ignore_ament_install']
+[0.281s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/deep_sort resource_dj/MOT16/train/MOT16-10) by extension 'ignore'
+[0.281s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/deep_sort resource_dj/MOT16/train/MOT16-10) by extension 'ignore_ament_install'
+[0.281s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/deep_sort resource_dj/MOT16/train/MOT16-10) by extensions ['colcon_pkg']
+[0.281s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/deep_sort resource_dj/MOT16/train/MOT16-10) by extension 'colcon_pkg'
+[0.281s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/deep_sort resource_dj/MOT16/train/MOT16-10) by extensions ['colcon_meta']
+[0.281s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/deep_sort resource_dj/MOT16/train/MOT16-10) by extension 'colcon_meta'
+[0.281s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/deep_sort resource_dj/MOT16/train/MOT16-10) by extensions ['ros']
+[0.281s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/deep_sort resource_dj/MOT16/train/MOT16-10) by extension 'ros'
+[0.281s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/deep_sort resource_dj/MOT16/train/MOT16-10) by extensions ['cmake', 'python']
+[0.281s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/deep_sort resource_dj/MOT16/train/MOT16-10) by extension 'cmake'
+[0.281s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/deep_sort resource_dj/MOT16/train/MOT16-10) by extension 'python'
+[0.281s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/deep_sort resource_dj/MOT16/train/MOT16-10) by extensions ['python_setup_py']
+[0.281s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/deep_sort resource_dj/MOT16/train/MOT16-10) by extension 'python_setup_py'
+[0.282s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/deep_sort resource_dj/MOT16/train/MOT16-10/det) by extensions ['ignore', 'ignore_ament_install']
+[0.282s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/deep_sort resource_dj/MOT16/train/MOT16-10/det) by extension 'ignore'
+[0.282s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/deep_sort resource_dj/MOT16/train/MOT16-10/det) by extension 'ignore_ament_install'
+[0.282s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/deep_sort resource_dj/MOT16/train/MOT16-10/det) by extensions ['colcon_pkg']
+[0.282s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/deep_sort resource_dj/MOT16/train/MOT16-10/det) by extension 'colcon_pkg'
+[0.282s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/deep_sort resource_dj/MOT16/train/MOT16-10/det) by extensions ['colcon_meta']
+[0.282s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/deep_sort resource_dj/MOT16/train/MOT16-10/det) by extension 'colcon_meta'
+[0.282s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/deep_sort resource_dj/MOT16/train/MOT16-10/det) by extensions ['ros']
+[0.282s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/deep_sort resource_dj/MOT16/train/MOT16-10/det) by extension 'ros'
+[0.282s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/deep_sort resource_dj/MOT16/train/MOT16-10/det) by extensions ['cmake', 'python']
+[0.282s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/deep_sort resource_dj/MOT16/train/MOT16-10/det) by extension 'cmake'
+[0.282s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/deep_sort resource_dj/MOT16/train/MOT16-10/det) by extension 'python'
+[0.282s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/deep_sort resource_dj/MOT16/train/MOT16-10/det) by extensions ['python_setup_py']
+[0.282s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/deep_sort resource_dj/MOT16/train/MOT16-10/det) by extension 'python_setup_py'
+[0.282s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/deep_sort resource_dj/MOT16/train/MOT16-10/gt) by extensions ['ignore', 'ignore_ament_install']
+[0.282s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/deep_sort resource_dj/MOT16/train/MOT16-10/gt) by extension 'ignore'
+[0.282s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/deep_sort resource_dj/MOT16/train/MOT16-10/gt) by extension 'ignore_ament_install'
+[0.282s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/deep_sort resource_dj/MOT16/train/MOT16-10/gt) by extensions ['colcon_pkg']
+[0.282s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/deep_sort resource_dj/MOT16/train/MOT16-10/gt) by extension 'colcon_pkg'
+[0.282s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/deep_sort resource_dj/MOT16/train/MOT16-10/gt) by extensions ['colcon_meta']
+[0.282s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/deep_sort resource_dj/MOT16/train/MOT16-10/gt) by extension 'colcon_meta'
+[0.282s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/deep_sort resource_dj/MOT16/train/MOT16-10/gt) by extensions ['ros']
+[0.283s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/deep_sort resource_dj/MOT16/train/MOT16-10/gt) by extension 'ros'
+[0.283s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/deep_sort resource_dj/MOT16/train/MOT16-10/gt) by extensions ['cmake', 'python']
+[0.283s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/deep_sort resource_dj/MOT16/train/MOT16-10/gt) by extension 'cmake'
+[0.283s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/deep_sort resource_dj/MOT16/train/MOT16-10/gt) by extension 'python'
+[0.283s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/deep_sort resource_dj/MOT16/train/MOT16-10/gt) by extensions ['python_setup_py']
+[0.283s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/deep_sort resource_dj/MOT16/train/MOT16-10/gt) by extension 'python_setup_py'
+[0.283s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/deep_sort resource_dj/MOT16/train/MOT16-10/img1) by extensions ['ignore', 'ignore_ament_install']
+[0.283s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/deep_sort resource_dj/MOT16/train/MOT16-10/img1) by extension 'ignore'
+[0.283s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/deep_sort resource_dj/MOT16/train/MOT16-10/img1) by extension 'ignore_ament_install'
+[0.283s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/deep_sort resource_dj/MOT16/train/MOT16-10/img1) by extensions ['colcon_pkg']
+[0.283s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/deep_sort resource_dj/MOT16/train/MOT16-10/img1) by extension 'colcon_pkg'
+[0.283s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/deep_sort resource_dj/MOT16/train/MOT16-10/img1) by extensions ['colcon_meta']
+[0.284s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/deep_sort resource_dj/MOT16/train/MOT16-10/img1) by extension 'colcon_meta'
+[0.284s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/deep_sort resource_dj/MOT16/train/MOT16-10/img1) by extensions ['ros']
+[0.284s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/deep_sort resource_dj/MOT16/train/MOT16-10/img1) by extension 'ros'
+[0.284s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/deep_sort resource_dj/MOT16/train/MOT16-10/img1) by extensions ['cmake', 'python']
+[0.284s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/deep_sort resource_dj/MOT16/train/MOT16-10/img1) by extension 'cmake'
+[0.284s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/deep_sort resource_dj/MOT16/train/MOT16-10/img1) by extension 'python'
+[0.284s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/deep_sort resource_dj/MOT16/train/MOT16-10/img1) by extensions ['python_setup_py']
+[0.284s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/deep_sort resource_dj/MOT16/train/MOT16-10/img1) by extension 'python_setup_py'
+[0.284s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/deep_sort resource_dj/MOT16/train/MOT16-11) by extensions ['ignore', 'ignore_ament_install']
+[0.284s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/deep_sort resource_dj/MOT16/train/MOT16-11) by extension 'ignore'
+[0.284s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/deep_sort resource_dj/MOT16/train/MOT16-11) by extension 'ignore_ament_install'
+[0.284s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/deep_sort resource_dj/MOT16/train/MOT16-11) by extensions ['colcon_pkg']
+[0.284s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/deep_sort resource_dj/MOT16/train/MOT16-11) by extension 'colcon_pkg'
+[0.284s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/deep_sort resource_dj/MOT16/train/MOT16-11) by extensions ['colcon_meta']
+[0.284s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/deep_sort resource_dj/MOT16/train/MOT16-11) by extension 'colcon_meta'
+[0.284s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/deep_sort resource_dj/MOT16/train/MOT16-11) by extensions ['ros']
+[0.284s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/deep_sort resource_dj/MOT16/train/MOT16-11) by extension 'ros'
+[0.284s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/deep_sort resource_dj/MOT16/train/MOT16-11) by extensions ['cmake', 'python']
+[0.284s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/deep_sort resource_dj/MOT16/train/MOT16-11) by extension 'cmake'
+[0.284s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/deep_sort resource_dj/MOT16/train/MOT16-11) by extension 'python'
+[0.284s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/deep_sort resource_dj/MOT16/train/MOT16-11) by extensions ['python_setup_py']
+[0.284s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/deep_sort resource_dj/MOT16/train/MOT16-11) by extension 'python_setup_py'
+[0.284s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/deep_sort resource_dj/MOT16/train/MOT16-11/det) by extensions ['ignore', 'ignore_ament_install']
+[0.285s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/deep_sort resource_dj/MOT16/train/MOT16-11/det) by extension 'ignore'
+[0.285s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/deep_sort resource_dj/MOT16/train/MOT16-11/det) by extension 'ignore_ament_install'
+[0.285s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/deep_sort resource_dj/MOT16/train/MOT16-11/det) by extensions ['colcon_pkg']
+[0.285s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/deep_sort resource_dj/MOT16/train/MOT16-11/det) by extension 'colcon_pkg'
+[0.285s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/deep_sort resource_dj/MOT16/train/MOT16-11/det) by extensions ['colcon_meta']
+[0.285s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/deep_sort resource_dj/MOT16/train/MOT16-11/det) by extension 'colcon_meta'
+[0.285s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/deep_sort resource_dj/MOT16/train/MOT16-11/det) by extensions ['ros']
+[0.285s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/deep_sort resource_dj/MOT16/train/MOT16-11/det) by extension 'ros'
+[0.285s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/deep_sort resource_dj/MOT16/train/MOT16-11/det) by extensions ['cmake', 'python']
+[0.285s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/deep_sort resource_dj/MOT16/train/MOT16-11/det) by extension 'cmake'
+[0.285s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/deep_sort resource_dj/MOT16/train/MOT16-11/det) by extension 'python'
+[0.285s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/deep_sort resource_dj/MOT16/train/MOT16-11/det) by extensions ['python_setup_py']
+[0.285s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/deep_sort resource_dj/MOT16/train/MOT16-11/det) by extension 'python_setup_py'
+[0.285s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/deep_sort resource_dj/MOT16/train/MOT16-11/gt) by extensions ['ignore', 'ignore_ament_install']
+[0.285s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/deep_sort resource_dj/MOT16/train/MOT16-11/gt) by extension 'ignore'
+[0.285s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/deep_sort resource_dj/MOT16/train/MOT16-11/gt) by extension 'ignore_ament_install'
+[0.285s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/deep_sort resource_dj/MOT16/train/MOT16-11/gt) by extensions ['colcon_pkg']
+[0.285s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/deep_sort resource_dj/MOT16/train/MOT16-11/gt) by extension 'colcon_pkg'
+[0.285s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/deep_sort resource_dj/MOT16/train/MOT16-11/gt) by extensions ['colcon_meta']
+[0.285s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/deep_sort resource_dj/MOT16/train/MOT16-11/gt) by extension 'colcon_meta'
+[0.285s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/deep_sort resource_dj/MOT16/train/MOT16-11/gt) by extensions ['ros']
+[0.285s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/deep_sort resource_dj/MOT16/train/MOT16-11/gt) by extension 'ros'
+[0.285s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/deep_sort resource_dj/MOT16/train/MOT16-11/gt) by extensions ['cmake', 'python']
+[0.286s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/deep_sort resource_dj/MOT16/train/MOT16-11/gt) by extension 'cmake'
+[0.286s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/deep_sort resource_dj/MOT16/train/MOT16-11/gt) by extension 'python'
+[0.286s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/deep_sort resource_dj/MOT16/train/MOT16-11/gt) by extensions ['python_setup_py']
+[0.286s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/deep_sort resource_dj/MOT16/train/MOT16-11/gt) by extension 'python_setup_py'
+[0.286s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/deep_sort resource_dj/MOT16/train/MOT16-11/img1) by extensions ['ignore', 'ignore_ament_install']
+[0.286s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/deep_sort resource_dj/MOT16/train/MOT16-11/img1) by extension 'ignore'
+[0.287s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/deep_sort resource_dj/MOT16/train/MOT16-11/img1) by extension 'ignore_ament_install'
+[0.287s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/deep_sort resource_dj/MOT16/train/MOT16-11/img1) by extensions ['colcon_pkg']
+[0.287s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/deep_sort resource_dj/MOT16/train/MOT16-11/img1) by extension 'colcon_pkg'
+[0.287s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/deep_sort resource_dj/MOT16/train/MOT16-11/img1) by extensions ['colcon_meta']
+[0.287s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/deep_sort resource_dj/MOT16/train/MOT16-11/img1) by extension 'colcon_meta'
+[0.287s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/deep_sort resource_dj/MOT16/train/MOT16-11/img1) by extensions ['ros']
+[0.287s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/deep_sort resource_dj/MOT16/train/MOT16-11/img1) by extension 'ros'
+[0.287s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/deep_sort resource_dj/MOT16/train/MOT16-11/img1) by extensions ['cmake', 'python']
+[0.287s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/deep_sort resource_dj/MOT16/train/MOT16-11/img1) by extension 'cmake'
+[0.287s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/deep_sort resource_dj/MOT16/train/MOT16-11/img1) by extension 'python'
+[0.287s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/deep_sort resource_dj/MOT16/train/MOT16-11/img1) by extensions ['python_setup_py']
+[0.287s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/deep_sort resource_dj/MOT16/train/MOT16-11/img1) by extension 'python_setup_py'
+[0.287s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/deep_sort resource_dj/MOT16/train/MOT16-13) by extensions ['ignore', 'ignore_ament_install']
+[0.287s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/deep_sort resource_dj/MOT16/train/MOT16-13) by extension 'ignore'
+[0.287s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/deep_sort resource_dj/MOT16/train/MOT16-13) by extension 'ignore_ament_install'
+[0.287s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/deep_sort resource_dj/MOT16/train/MOT16-13) by extensions ['colcon_pkg']
+[0.287s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/deep_sort resource_dj/MOT16/train/MOT16-13) by extension 'colcon_pkg'
+[0.287s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/deep_sort resource_dj/MOT16/train/MOT16-13) by extensions ['colcon_meta']
+[0.287s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/deep_sort resource_dj/MOT16/train/MOT16-13) by extension 'colcon_meta'
+[0.287s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/deep_sort resource_dj/MOT16/train/MOT16-13) by extensions ['ros']
+[0.287s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/deep_sort resource_dj/MOT16/train/MOT16-13) by extension 'ros'
+[0.287s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/deep_sort resource_dj/MOT16/train/MOT16-13) by extensions ['cmake', 'python']
+[0.287s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/deep_sort resource_dj/MOT16/train/MOT16-13) by extension 'cmake'
+[0.287s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/deep_sort resource_dj/MOT16/train/MOT16-13) by extension 'python'
+[0.287s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/deep_sort resource_dj/MOT16/train/MOT16-13) by extensions ['python_setup_py']
+[0.287s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/deep_sort resource_dj/MOT16/train/MOT16-13) by extension 'python_setup_py'
+[0.288s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/deep_sort resource_dj/MOT16/train/MOT16-13/det) by extensions ['ignore', 'ignore_ament_install']
+[0.288s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/deep_sort resource_dj/MOT16/train/MOT16-13/det) by extension 'ignore'
+[0.288s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/deep_sort resource_dj/MOT16/train/MOT16-13/det) by extension 'ignore_ament_install'
+[0.288s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/deep_sort resource_dj/MOT16/train/MOT16-13/det) by extensions ['colcon_pkg']
+[0.288s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/deep_sort resource_dj/MOT16/train/MOT16-13/det) by extension 'colcon_pkg'
+[0.288s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/deep_sort resource_dj/MOT16/train/MOT16-13/det) by extensions ['colcon_meta']
+[0.288s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/deep_sort resource_dj/MOT16/train/MOT16-13/det) by extension 'colcon_meta'
+[0.288s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/deep_sort resource_dj/MOT16/train/MOT16-13/det) by extensions ['ros']
+[0.288s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/deep_sort resource_dj/MOT16/train/MOT16-13/det) by extension 'ros'
+[0.288s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/deep_sort resource_dj/MOT16/train/MOT16-13/det) by extensions ['cmake', 'python']
+[0.288s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/deep_sort resource_dj/MOT16/train/MOT16-13/det) by extension 'cmake'
+[0.288s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/deep_sort resource_dj/MOT16/train/MOT16-13/det) by extension 'python'
+[0.288s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/deep_sort resource_dj/MOT16/train/MOT16-13/det) by extensions ['python_setup_py']
+[0.288s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/deep_sort resource_dj/MOT16/train/MOT16-13/det) by extension 'python_setup_py'
+[0.288s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/deep_sort resource_dj/MOT16/train/MOT16-13/gt) by extensions ['ignore', 'ignore_ament_install']
+[0.288s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/deep_sort resource_dj/MOT16/train/MOT16-13/gt) by extension 'ignore'
+[0.288s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/deep_sort resource_dj/MOT16/train/MOT16-13/gt) by extension 'ignore_ament_install'
+[0.288s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/deep_sort resource_dj/MOT16/train/MOT16-13/gt) by extensions ['colcon_pkg']
+[0.288s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/deep_sort resource_dj/MOT16/train/MOT16-13/gt) by extension 'colcon_pkg'
+[0.288s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/deep_sort resource_dj/MOT16/train/MOT16-13/gt) by extensions ['colcon_meta']
+[0.288s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/deep_sort resource_dj/MOT16/train/MOT16-13/gt) by extension 'colcon_meta'
+[0.289s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/deep_sort resource_dj/MOT16/train/MOT16-13/gt) by extensions ['ros']
+[0.289s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/deep_sort resource_dj/MOT16/train/MOT16-13/gt) by extension 'ros'
+[0.289s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/deep_sort resource_dj/MOT16/train/MOT16-13/gt) by extensions ['cmake', 'python']
+[0.289s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/deep_sort resource_dj/MOT16/train/MOT16-13/gt) by extension 'cmake'
+[0.289s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/deep_sort resource_dj/MOT16/train/MOT16-13/gt) by extension 'python'
+[0.289s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/deep_sort resource_dj/MOT16/train/MOT16-13/gt) by extensions ['python_setup_py']
+[0.289s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/deep_sort resource_dj/MOT16/train/MOT16-13/gt) by extension 'python_setup_py'
+[0.289s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/deep_sort resource_dj/MOT16/train/MOT16-13/img1) by extensions ['ignore', 'ignore_ament_install']
+[0.289s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/deep_sort resource_dj/MOT16/train/MOT16-13/img1) by extension 'ignore'
+[0.289s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/deep_sort resource_dj/MOT16/train/MOT16-13/img1) by extension 'ignore_ament_install'
+[0.290s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/deep_sort resource_dj/MOT16/train/MOT16-13/img1) by extensions ['colcon_pkg']
+[0.290s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/deep_sort resource_dj/MOT16/train/MOT16-13/img1) by extension 'colcon_pkg'
+[0.290s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/deep_sort resource_dj/MOT16/train/MOT16-13/img1) by extensions ['colcon_meta']
+[0.290s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/deep_sort resource_dj/MOT16/train/MOT16-13/img1) by extension 'colcon_meta'
+[0.290s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/deep_sort resource_dj/MOT16/train/MOT16-13/img1) by extensions ['ros']
+[0.290s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/deep_sort resource_dj/MOT16/train/MOT16-13/img1) by extension 'ros'
+[0.290s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/deep_sort resource_dj/MOT16/train/MOT16-13/img1) by extensions ['cmake', 'python']
+[0.290s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/deep_sort resource_dj/MOT16/train/MOT16-13/img1) by extension 'cmake'
+[0.290s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/deep_sort resource_dj/MOT16/train/MOT16-13/img1) by extension 'python'
+[0.290s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/deep_sort resource_dj/MOT16/train/MOT16-13/img1) by extensions ['python_setup_py']
+[0.290s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/deep_sort resource_dj/MOT16/train/MOT16-13/img1) by extension 'python_setup_py'
+[0.290s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/deep_sort resource_dj/detections) by extensions ['ignore', 'ignore_ament_install']
+[0.290s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/deep_sort resource_dj/detections) by extension 'ignore'
+[0.290s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/deep_sort resource_dj/detections) by extension 'ignore_ament_install'
+[0.290s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/deep_sort resource_dj/detections) by extensions ['colcon_pkg']
+[0.290s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/deep_sort resource_dj/detections) by extension 'colcon_pkg'
+[0.290s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/deep_sort resource_dj/detections) by extensions ['colcon_meta']
+[0.290s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/deep_sort resource_dj/detections) by extension 'colcon_meta'
+[0.290s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/deep_sort resource_dj/detections) by extensions ['ros']
+[0.290s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/deep_sort resource_dj/detections) by extension 'ros'
+[0.290s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/deep_sort resource_dj/detections) by extensions ['cmake', 'python']
+[0.290s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/deep_sort resource_dj/detections) by extension 'cmake'
+[0.290s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/deep_sort resource_dj/detections) by extension 'python'
+[0.290s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/deep_sort resource_dj/detections) by extensions ['python_setup_py']
+[0.290s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/deep_sort resource_dj/detections) by extension 'python_setup_py'
+[0.291s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/deep_sort resource_dj/detections/MOT16_POI_test) by extensions ['ignore', 'ignore_ament_install']
+[0.291s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/deep_sort resource_dj/detections/MOT16_POI_test) by extension 'ignore'
+[0.291s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/deep_sort resource_dj/detections/MOT16_POI_test) by extension 'ignore_ament_install'
+[0.291s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/deep_sort resource_dj/detections/MOT16_POI_test) by extensions ['colcon_pkg']
+[0.291s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/deep_sort resource_dj/detections/MOT16_POI_test) by extension 'colcon_pkg'
+[0.291s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/deep_sort resource_dj/detections/MOT16_POI_test) by extensions ['colcon_meta']
+[0.291s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/deep_sort resource_dj/detections/MOT16_POI_test) by extension 'colcon_meta'
+[0.291s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/deep_sort resource_dj/detections/MOT16_POI_test) by extensions ['ros']
+[0.291s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/deep_sort resource_dj/detections/MOT16_POI_test) by extension 'ros'
+[0.291s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/deep_sort resource_dj/detections/MOT16_POI_test) by extensions ['cmake', 'python']
+[0.291s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/deep_sort resource_dj/detections/MOT16_POI_test) by extension 'cmake'
+[0.291s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/deep_sort resource_dj/detections/MOT16_POI_test) by extension 'python'
+[0.291s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/deep_sort resource_dj/detections/MOT16_POI_test) by extensions ['python_setup_py']
+[0.291s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/deep_sort resource_dj/detections/MOT16_POI_test) by extension 'python_setup_py'
+[0.291s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/deep_sort resource_dj/detections/MOT16_POI_train) by extensions ['ignore', 'ignore_ament_install']
+[0.291s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/deep_sort resource_dj/detections/MOT16_POI_train) by extension 'ignore'
+[0.291s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/deep_sort resource_dj/detections/MOT16_POI_train) by extension 'ignore_ament_install'
+[0.291s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/deep_sort resource_dj/detections/MOT16_POI_train) by extensions ['colcon_pkg']
+[0.291s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/deep_sort resource_dj/detections/MOT16_POI_train) by extension 'colcon_pkg'
+[0.291s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/deep_sort resource_dj/detections/MOT16_POI_train) by extensions ['colcon_meta']
+[0.291s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/deep_sort resource_dj/detections/MOT16_POI_train) by extension 'colcon_meta'
+[0.291s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/deep_sort resource_dj/detections/MOT16_POI_train) by extensions ['ros']
+[0.291s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/deep_sort resource_dj/detections/MOT16_POI_train) by extension 'ros'
+[0.291s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/deep_sort resource_dj/detections/MOT16_POI_train) by extensions ['cmake', 'python']
+[0.292s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/deep_sort resource_dj/detections/MOT16_POI_train) by extension 'cmake'
+[0.292s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/deep_sort resource_dj/detections/MOT16_POI_train) by extension 'python'
+[0.292s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/deep_sort resource_dj/detections/MOT16_POI_train) by extensions ['python_setup_py']
+[0.292s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/deep_sort resource_dj/detections/MOT16_POI_train) by extension 'python_setup_py'
+[0.292s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/deep_sort_ros) by extensions ['ignore', 'ignore_ament_install']
+[0.292s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/deep_sort_ros) by extension 'ignore'
+[0.292s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/deep_sort_ros) by extension 'ignore_ament_install'
+[0.292s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/deep_sort_ros) by extensions ['colcon_pkg']
+[0.292s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/deep_sort_ros) by extension 'colcon_pkg'
+[0.292s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/deep_sort_ros) by extensions ['colcon_meta']
+[0.292s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/deep_sort_ros) by extension 'colcon_meta'
+[0.292s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/deep_sort_ros) by extensions ['ros']
+[0.292s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/deep_sort_ros) by extension 'ros'
+[0.295s] [34mcolcon.colcon_core.package_identification[0m [1;30mDEBUG[0m [32mPackage 'src/deep_sort_ros' with type 'ros.ament_python' and name 'deep_sort_ros'[0m
+[0.295s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/yolo_move) by extensions ['ignore', 'ignore_ament_install']
+[0.295s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/yolo_move) by extension 'ignore'
+[0.295s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/yolo_move) by extension 'ignore_ament_install'
+[0.295s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/yolo_move) by extensions ['colcon_pkg']
+[0.295s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/yolo_move) by extension 'colcon_pkg'
+[0.295s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/yolo_move) by extensions ['colcon_meta']
+[0.295s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/yolo_move) by extension 'colcon_meta'
+[0.295s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/yolo_move) by extensions ['ros']
+[0.295s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/yolo_move) by extension 'ros'
+[0.296s] [34mcolcon.colcon_core.package_identification[0m [1;30mDEBUG[0m [32mPackage 'src/yolo_move' with type 'ros.catkin' and name 'yolo_move'[0m
+[0.296s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/yolo_ros) by extensions ['ignore', 'ignore_ament_install']
+[0.296s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/yolo_ros) by extension 'ignore'
+[0.296s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/yolo_ros) by extension 'ignore_ament_install'
+[0.296s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/yolo_ros) by extensions ['colcon_pkg']
+[0.296s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/yolo_ros) by extension 'colcon_pkg'
+[0.296s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/yolo_ros) by extensions ['colcon_meta']
+[0.296s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/yolo_ros) by extension 'colcon_meta'
+[0.297s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/yolo_ros) by extensions ['ros']
+[0.297s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/yolo_ros) by extension 'ros'
+[0.297s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/yolo_ros) by extensions ['cmake', 'python']
+[0.297s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/yolo_ros) by extension 'cmake'
+[0.297s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/yolo_ros) by extension 'python'
+[0.297s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/yolo_ros) by extensions ['python_setup_py']
+[0.297s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/yolo_ros) by extension 'python_setup_py'
+[0.297s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/yolo_ros/docs) by extensions ['ignore', 'ignore_ament_install']
+[0.297s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/yolo_ros/docs) by extension 'ignore'
+[0.297s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/yolo_ros/docs) by extension 'ignore_ament_install'
+[0.297s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/yolo_ros/docs) by extensions ['colcon_pkg']
+[0.297s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/yolo_ros/docs) by extension 'colcon_pkg'
+[0.297s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/yolo_ros/docs) by extensions ['colcon_meta']
+[0.297s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/yolo_ros/docs) by extension 'colcon_meta'
+[0.297s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/yolo_ros/docs) by extensions ['ros']
+[0.297s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/yolo_ros/docs) by extension 'ros'
+[0.297s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/yolo_ros/docs) by extensions ['cmake', 'python']
+[0.297s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/yolo_ros/docs) by extension 'cmake'
+[0.297s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/yolo_ros/docs) by extension 'python'
+[0.297s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/yolo_ros/docs) by extensions ['python_setup_py']
+[0.297s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/yolo_ros/docs) by extension 'python_setup_py'
+[0.297s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/yolo_ros/yolo_bringup) by extensions ['ignore', 'ignore_ament_install']
+[0.297s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/yolo_ros/yolo_bringup) by extension 'ignore'
+[0.298s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/yolo_ros/yolo_bringup) by extension 'ignore_ament_install'
+[0.298s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/yolo_ros/yolo_bringup) by extensions ['colcon_pkg']
+[0.298s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/yolo_ros/yolo_bringup) by extension 'colcon_pkg'
+[0.298s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/yolo_ros/yolo_bringup) by extensions ['colcon_meta']
+[0.298s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/yolo_ros/yolo_bringup) by extension 'colcon_meta'
+[0.298s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/yolo_ros/yolo_bringup) by extensions ['ros']
+[0.298s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/yolo_ros/yolo_bringup) by extension 'ros'
+[0.298s] [34mcolcon.colcon_core.package_identification[0m [1;30mDEBUG[0m [32mPackage 'src/yolo_ros/yolo_bringup' with type 'ros.ament_cmake' and name 'yolo_bringup'[0m
+[0.298s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/yolo_ros/yolo_msgs) by extensions ['ignore', 'ignore_ament_install']
+[0.299s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/yolo_ros/yolo_msgs) by extension 'ignore'
+[0.299s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/yolo_ros/yolo_msgs) by extension 'ignore_ament_install'
+[0.299s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/yolo_ros/yolo_msgs) by extensions ['colcon_pkg']
+[0.299s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/yolo_ros/yolo_msgs) by extension 'colcon_pkg'
+[0.299s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/yolo_ros/yolo_msgs) by extensions ['colcon_meta']
+[0.299s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/yolo_ros/yolo_msgs) by extension 'colcon_meta'
+[0.299s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/yolo_ros/yolo_msgs) by extensions ['ros']
+[0.299s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/yolo_ros/yolo_msgs) by extension 'ros'
+[0.299s] [34mcolcon.colcon_core.package_identification[0m [1;30mDEBUG[0m [32mPackage 'src/yolo_ros/yolo_msgs' with type 'ros.ament_cmake' and name 'yolo_msgs'[0m
+[0.300s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/yolo_ros/yolo_ros) by extensions ['ignore', 'ignore_ament_install']
+[0.300s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/yolo_ros/yolo_ros) by extension 'ignore'
+[0.300s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/yolo_ros/yolo_ros) by extension 'ignore_ament_install'
+[0.300s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/yolo_ros/yolo_ros) by extensions ['colcon_pkg']
+[0.300s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/yolo_ros/yolo_ros) by extension 'colcon_pkg'
+[0.300s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/yolo_ros/yolo_ros) by extensions ['colcon_meta']
+[0.300s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/yolo_ros/yolo_ros) by extension 'colcon_meta'
+[0.300s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/yolo_ros/yolo_ros) by extensions ['ros']
+[0.300s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/yolo_ros/yolo_ros) by extension 'ros'
+[0.301s] [34mcolcon.colcon_core.package_identification[0m [1;30mDEBUG[0m [32mPackage 'src/yolo_ros/yolo_ros' with type 'ros.ament_python' and name 'yolo_ros'[0m
+[0.301s] [34mcolcon.colcon_core.package_discovery[0m [1;30mLevel 1[0m discover_packages(recursive) using defaults
+[0.301s] [34mcolcon.colcon_core.package_discovery[0m [1;30mLevel 1[0m discover_packages(ignore) discover
+[0.301s] [34mcolcon.colcon_core.package_discovery[0m [1;30mLevel 1[0m discover_packages(ignore) using defaults
+[0.301s] [34mcolcon.colcon_core.package_discovery[0m [1;30mLevel 1[0m discover_packages(path) discover
+[0.301s] [34mcolcon.colcon_core.package_discovery[0m [1;30mLevel 1[0m discover_packages(path) using defaults
+[0.320s] [34mcolcon.colcon_core.package_discovery[0m [1;30mLevel 1[0m discover_packages(prefix_path) check parameters
+[0.320s] [34mcolcon.colcon_core.package_discovery[0m [1;30mLevel 1[0m discover_packages(prefix_path) discover
+[0.321s] [34mcolcon.colcon_ros.prefix_path.ament[0m [1;30mWARNING[0m [33mThe path '/home/dj/yolo_ws/install/yolo_bringup' in the environment variable AMENT_PREFIX_PATH doesn't exist[0m
+[0.321s] [34mcolcon.colcon_ros.prefix_path.ament[0m [1;30mWARNING[0m [33mThe path '/home/dj/yolo_ws/install/yolo_ros' in the environment variable AMENT_PREFIX_PATH doesn't exist[0m
+[0.321s] [34mcolcon.colcon_ros.prefix_path.ament[0m [1;30mWARNING[0m [33mThe path '/home/dj/yolo_ws/install/yolo_msgs' in the environment variable AMENT_PREFIX_PATH doesn't exist[0m
+[0.321s] [34mcolcon.colcon_ros.prefix_path.catkin[0m [1;30mWARNING[0m [33mThe path '/home/dj/yolo_ws/install/yolo_bringup' in the environment variable CMAKE_PREFIX_PATH doesn't exist[0m
+[0.321s] [34mcolcon.colcon_ros.prefix_path.catkin[0m [1;30mWARNING[0m [33mThe path '/home/dj/yolo_ws/install/yolo_msgs' in the environment variable CMAKE_PREFIX_PATH doesn't exist[0m
+[0.322s] [34mcolcon.colcon_installed_package_information.package_discovery[0m [1;30mDEBUG[0m [32mFound 2 installed packages in /home/dj/yolo_ws/install[0m
+[0.324s] [34mcolcon.colcon_installed_package_information.package_discovery[0m [1;30mDEBUG[0m [32mFound 353 installed packages in /opt/ros/humble[0m
+[0.326s] [34mcolcon.colcon_core.package_discovery[0m [1;30mLevel 1[0m discover_packages(prefix_path) using defaults
+[0.367s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'deep_sort_ros' build argument 'cmake_args' from command line to 'None'
+[0.367s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'deep_sort_ros' build argument 'cmake_target' from command line to 'None'
+[0.367s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'deep_sort_ros' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.367s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'deep_sort_ros' build argument 'cmake_clean_cache' from command line to 'False'
+[0.368s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'deep_sort_ros' build argument 'cmake_clean_first' from command line to 'False'
+[0.368s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'deep_sort_ros' build argument 'cmake_force_configure' from command line to 'False'
+[0.368s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'deep_sort_ros' build argument 'ament_cmake_args' from command line to 'None'
+[0.368s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'deep_sort_ros' build argument 'catkin_cmake_args' from command line to 'None'
+[0.368s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'deep_sort_ros' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.368s] [34mcolcon.colcon_core.verb[0m [1;30mDEBUG[0m [32mBuilding package 'deep_sort_ros' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/dj/yolo_ws/build/deep_sort_ros', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/dj/yolo_ws/install/deep_sort_ros', 'merge_install': False, 'path': '/home/dj/yolo_ws/src/deep_sort_ros', 'symlink_install': True, 'test_result_base': None}[0m
+[0.368s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'yolo_move' build argument 'cmake_args' from command line to 'None'
+[0.368s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'yolo_move' build argument 'cmake_target' from command line to 'None'
+[0.368s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'yolo_move' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.368s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'yolo_move' build argument 'cmake_clean_cache' from command line to 'False'
+[0.368s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'yolo_move' build argument 'cmake_clean_first' from command line to 'False'
+[0.368s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'yolo_move' build argument 'cmake_force_configure' from command line to 'False'
+[0.368s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'yolo_move' build argument 'ament_cmake_args' from command line to 'None'
+[0.368s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'yolo_move' build argument 'catkin_cmake_args' from command line to 'None'
+[0.368s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'yolo_move' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.368s] [34mcolcon.colcon_core.verb[0m [1;30mDEBUG[0m [32mBuilding package 'yolo_move' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/dj/yolo_ws/build/yolo_move', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/dj/yolo_ws/install/yolo_move', 'merge_install': False, 'path': '/home/dj/yolo_ws/src/yolo_move', 'symlink_install': True, 'test_result_base': None}[0m
+[0.369s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'yolo_msgs' build argument 'cmake_args' from command line to 'None'
+[0.369s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'yolo_msgs' build argument 'cmake_target' from command line to 'None'
+[0.369s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'yolo_msgs' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.369s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'yolo_msgs' build argument 'cmake_clean_cache' from command line to 'False'
+[0.369s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'yolo_msgs' build argument 'cmake_clean_first' from command line to 'False'
+[0.369s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'yolo_msgs' build argument 'cmake_force_configure' from command line to 'False'
+[0.369s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'yolo_msgs' build argument 'ament_cmake_args' from command line to 'None'
+[0.369s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'yolo_msgs' build argument 'catkin_cmake_args' from command line to 'None'
+[0.369s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'yolo_msgs' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.369s] [34mcolcon.colcon_core.verb[0m [1;30mDEBUG[0m [32mBuilding package 'yolo_msgs' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/dj/yolo_ws/build/yolo_msgs', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/dj/yolo_ws/install/yolo_msgs', 'merge_install': False, 'path': '/home/dj/yolo_ws/src/yolo_ros/yolo_msgs', 'symlink_install': True, 'test_result_base': None}[0m
+[0.369s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'yolo_ros' build argument 'cmake_args' from command line to 'None'
+[0.369s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'yolo_ros' build argument 'cmake_target' from command line to 'None'
+[0.369s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'yolo_ros' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.369s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'yolo_ros' build argument 'cmake_clean_cache' from command line to 'False'
+[0.369s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'yolo_ros' build argument 'cmake_clean_first' from command line to 'False'
+[0.369s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'yolo_ros' build argument 'cmake_force_configure' from command line to 'False'
+[0.369s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'yolo_ros' build argument 'ament_cmake_args' from command line to 'None'
+[0.369s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'yolo_ros' build argument 'catkin_cmake_args' from command line to 'None'
+[0.369s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'yolo_ros' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.369s] [34mcolcon.colcon_core.verb[0m [1;30mDEBUG[0m [32mBuilding package 'yolo_ros' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/dj/yolo_ws/build/yolo_ros', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/dj/yolo_ws/install/yolo_ros', 'merge_install': False, 'path': '/home/dj/yolo_ws/src/yolo_ros/yolo_ros', 'symlink_install': True, 'test_result_base': None}[0m
+[0.369s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'yolo_bringup' build argument 'cmake_args' from command line to 'None'
+[0.370s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'yolo_bringup' build argument 'cmake_target' from command line to 'None'
+[0.370s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'yolo_bringup' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.370s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'yolo_bringup' build argument 'cmake_clean_cache' from command line to 'False'
+[0.370s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'yolo_bringup' build argument 'cmake_clean_first' from command line to 'False'
+[0.370s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'yolo_bringup' build argument 'cmake_force_configure' from command line to 'False'
+[0.370s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'yolo_bringup' build argument 'ament_cmake_args' from command line to 'None'
+[0.370s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'yolo_bringup' build argument 'catkin_cmake_args' from command line to 'None'
+[0.370s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'yolo_bringup' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.370s] [34mcolcon.colcon_core.verb[0m [1;30mDEBUG[0m [32mBuilding package 'yolo_bringup' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/dj/yolo_ws/build/yolo_bringup', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/dj/yolo_ws/install/yolo_bringup', 'merge_install': False, 'path': '/home/dj/yolo_ws/src/yolo_ros/yolo_bringup', 'symlink_install': True, 'test_result_base': None}[0m
+[0.370s] [34mcolcon.colcon_core.executor[0m [1;30mINFO[0m Executing jobs using 'parallel' executor
+[0.371s] [34mcolcon.colcon_parallel_executor.executor.parallel[0m [1;30mDEBUG[0m [32mrun_until_complete[0m
+[0.371s] [34mcolcon.colcon_ros.task.ament_cmake.build[0m [1;30mINFO[0m Building ROS package in '/home/dj/yolo_ws/src/yolo_ros/yolo_msgs' with build type 'ament_cmake'
+[0.371s] [34mcolcon.colcon_cmake.task.cmake.build[0m [1;30mINFO[0m Building CMake package in '/home/dj/yolo_ws/src/yolo_ros/yolo_msgs'
+[0.373s] [34mcolcon.colcon_core.plugin_system[0m [1;30mINFO[0m Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.373s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.373s] [34mcolcon.colcon_core.shell[0m [1;30mDEBUG[0m [32mSkip shell extension 'dsv' for command environment[0m
+[0.377s] [34mcolcon.colcon_ros.task.ament_python.build[0m [1;30mINFO[0m Building ROS package in '/home/dj/yolo_ws/src/deep_sort_ros' with build type 'ament_python'
+[0.377s] [34mcolcon.colcon_core.shell[0m [1;30mLevel 1[0m create_environment_hook('deep_sort_ros', 'ament_prefix_path')
+[0.378s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook '/home/dj/yolo_ws/install/deep_sort_ros/share/deep_sort_ros/hook/ament_prefix_path.ps1'
+[0.378s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment descriptor '/home/dj/yolo_ws/install/deep_sort_ros/share/deep_sort_ros/hook/ament_prefix_path.dsv'
+[0.379s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook '/home/dj/yolo_ws/install/deep_sort_ros/share/deep_sort_ros/hook/ament_prefix_path.sh'
+[0.379s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.379s] [34mcolcon.colcon_core.shell[0m [1;30mDEBUG[0m [32mSkip shell extension 'dsv' for command environment[0m
+[0.382s] [34mcolcon.colcon_ros.task.catkin.build[0m [1;30mINFO[0m Building ROS package in '/home/dj/yolo_ws/src/yolo_move' with build type 'catkin'
+[0.383s] [34mcolcon.colcon_cmake.task.cmake.build[0m [1;30mINFO[0m Building CMake package in '/home/dj/yolo_ws/src/yolo_move'
+[0.383s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.383s] [34mcolcon.colcon_core.shell[0m [1;30mDEBUG[0m [32mSkip shell extension 'dsv' for command environment[0m
+[0.391s] [34mcolcon.colcon_core.event_handler.log_command[0m [1;30mDEBUG[0m [32mInvoking command in '/home/dj/yolo_ws/build/yolo_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/dj/yolo_ws/install/yolo_ros:/home/dj/yolo_ws/install/deep_sort_ros:/opt/ros/humble /usr/bin/cmake /home/dj/yolo_ws/src/yolo_ros/yolo_msgs -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/dj/yolo_ws/install/yolo_msgs[0m
+[0.583s] [34mcolcon.colcon_core.task.python.build[0m [1;30mINFO[0m Building Python package in '/home/dj/yolo_ws/src/deep_sort_ros'
+[0.584s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.584s] [34mcolcon.colcon_core.shell[0m [1;30mDEBUG[0m [32mSkip shell extension 'dsv' for command environment[0m
+[0.593s] [34mcolcon.colcon_core.event_handler.log_command[0m [1;30mDEBUG[0m [32mInvoking command in '/home/dj/yolo_ws/build/yolo_move': /usr/bin/cmake /home/dj/yolo_ws/src/yolo_move -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCATKIN_SYMLINK_INSTALL=ON -DCMAKE_INSTALL_PREFIX=/home/dj/yolo_ws/install/yolo_move[0m
+[0.600s] [34mcolcon.colcon_core.event_handler.log_command[0m [1;30mDEBUG[0m [32mInvoked command in '/home/dj/yolo_ws/build/yolo_move' returned '1': /usr/bin/cmake /home/dj/yolo_ws/src/yolo_move -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCATKIN_SYMLINK_INSTALL=ON -DCMAKE_INSTALL_PREFIX=/home/dj/yolo_ws/install/yolo_move[0m
+[0.612s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m create_environment_scripts_only(yolo_move)
+[0.614s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/dj/yolo_ws/install/yolo_move' for CMake module files
+[0.614s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/dj/yolo_ws/install/yolo_move' for CMake config files
+[0.615s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/dj/yolo_ws/install/yolo_move/bin'
+[0.615s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/dj/yolo_ws/install/yolo_move/lib/pkgconfig/yolo_move.pc'
+[0.615s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/dj/yolo_ws/install/yolo_move/lib/python3.10/site-packages'
+[0.615s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/dj/yolo_ws/install/yolo_move/bin'
+[0.615s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/dj/yolo_ws/install/yolo_move/share/yolo_move/package.ps1'
+[0.616s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package descriptor '/home/dj/yolo_ws/install/yolo_move/share/yolo_move/package.dsv'
+[0.616s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/dj/yolo_ws/install/yolo_move/share/yolo_move/package.sh'
+[0.616s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/dj/yolo_ws/install/yolo_move/share/yolo_move/package.bash'
+[0.617s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/dj/yolo_ws/install/yolo_move/share/yolo_move/package.zsh'
+[0.617s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m create_file_with_runtime_dependencies(/home/dj/yolo_ws/install/yolo_move/share/colcon-core/packages/yolo_move)
+[1.392s] [34mcolcon.colcon_parallel_executor.executor.parallel[0m [1;30mDEBUG[0m [32mclosing loop[0m
+[1.393s] [34mcolcon.colcon_parallel_executor.executor.parallel[0m [1;30mDEBUG[0m [32mloop closed[0m
+[1.393s] [34mcolcon.colcon_parallel_executor.executor.parallel[0m [1;30mDEBUG[0m [32mrun_until_complete finished with '1'[0m
+[1.393s] [34mcolcon.colcon_core.event_reactor[0m [1;30mDEBUG[0m [32mjoining thread[0m
+[1.396s] [34mcolcon.colcon_core.plugin_system[0m [1;30mINFO[0m Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[1.396s] [34mcolcon.colcon_core.plugin_system[0m [1;30mINFO[0m Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[1.396s] [34mcolcon.colcon_notification.desktop_notification[0m [1;30mINFO[0m Sending desktop notification using 'notify2'
+[1.405s] [34mcolcon.colcon_core.event_reactor[0m [1;30mDEBUG[0m [32mjoined thread[0m
+[1.405s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating prefix script '/home/dj/yolo_ws/install/local_setup.ps1'
+[1.406s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating prefix util module '/home/dj/yolo_ws/install/_local_setup_util_ps1.py'
+[1.406s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating prefix chain script '/home/dj/yolo_ws/install/setup.ps1'
+[1.407s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating prefix script '/home/dj/yolo_ws/install/local_setup.sh'
+[1.407s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating prefix util module '/home/dj/yolo_ws/install/_local_setup_util_sh.py'
+[1.408s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating prefix chain script '/home/dj/yolo_ws/install/setup.sh'
+[1.408s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating prefix script '/home/dj/yolo_ws/install/local_setup.bash'
+[1.409s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating prefix chain script '/home/dj/yolo_ws/install/setup.bash'
+[1.409s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating prefix script '/home/dj/yolo_ws/install/local_setup.zsh'
+[1.409s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating prefix chain script '/home/dj/yolo_ws/install/setup.zsh'

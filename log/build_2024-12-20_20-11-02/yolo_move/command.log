@@ -1,0 +1,2 @@
+Invoking command in '/home/dj/yolo_ws/build/yolo_move': /usr/bin/cmake /home/dj/yolo_ws/src/yolo_move -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCMAKE_INSTALL_PREFIX=/home/dj/yolo_ws/install/yolo_move
+Invoked command in '/home/dj/yolo_ws/build/yolo_move' returned '1': /usr/bin/cmake /home/dj/yolo_ws/src/yolo_move -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCMAKE_INSTALL_PREFIX=/home/dj/yolo_ws/install/yolo_move

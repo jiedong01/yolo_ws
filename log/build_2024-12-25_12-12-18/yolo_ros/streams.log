@@ -1,0 +1,23 @@
+[0.475s] Invoking command in '/home/dj/yolo_ws/build/yolo_ros': CMAKE_PREFIX_PATH=/home/dj/yolo_ws/install/yolo_msgs:/home/dj/yolo_ws/install/yolo_bringup PYTHONPATH=/home/dj/yolo_ws/build/yolo_ros/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/dj/yolo_ws/install/yolo_ros/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/dj/yolo_ws/build/yolo_ros/build --no-deps symlink_data
+[0.569s] /home/dj/.local/lib/python3.10/site-packages/setuptools/_distutils/dist.py:261: UserWarning: Unknown distribution option: 'tests_require'
+[0.569s]   warnings.warn(msg)
+[0.686s] running develop
+[0.828s] running egg_info
+[0.839s] writing yolo_ros.egg-info/PKG-INFO
+[0.839s] writing dependency_links to yolo_ros.egg-info/dependency_links.txt
+[0.839s] writing entry points to yolo_ros.egg-info/entry_points.txt
+[0.839s] writing requirements to yolo_ros.egg-info/requires.txt
+[0.840s] writing top-level names to yolo_ros.egg-info/top_level.txt
+[0.868s] reading manifest file 'yolo_ros.egg-info/SOURCES.txt'
+[0.868s] writing manifest file 'yolo_ros.egg-info/SOURCES.txt'
+[0.882s] running build_ext
+[0.882s] Creating /home/dj/yolo_ws/install/yolo_ros/lib/python3.10/site-packages/yolo-ros.egg-link (link to .)
+[0.882s] Installing debug_node script to /home/dj/yolo_ws/install/yolo_ros/lib/yolo_ros
+[0.882s] Installing detect_3d_node script to /home/dj/yolo_ws/install/yolo_ros/lib/yolo_ros
+[0.883s] Installing object_control_node script to /home/dj/yolo_ws/install/yolo_ros/lib/yolo_ros
+[0.883s] Installing tracking_node script to /home/dj/yolo_ws/install/yolo_ros/lib/yolo_ros
+[0.883s] Installing yolo_node script to /home/dj/yolo_ws/install/yolo_ros/lib/yolo_ros
+[0.883s] 
+[0.883s] Installed /home/dj/yolo_ws/build/yolo_ros
+[0.883s] running symlink_data
+[0.915s] Invoked command in '/home/dj/yolo_ws/build/yolo_ros' returned '0': CMAKE_PREFIX_PATH=/home/dj/yolo_ws/install/yolo_msgs:/home/dj/yolo_ws/install/yolo_bringup PYTHONPATH=/home/dj/yolo_ws/build/yolo_ros/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/dj/yolo_ws/install/yolo_ros/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/dj/yolo_ws/build/yolo_ros/build --no-deps symlink_data

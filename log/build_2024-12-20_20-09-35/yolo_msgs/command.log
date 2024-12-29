@@ -1,0 +1,1 @@
+Invoking command in '/home/dj/yolo_ws/build/yolo_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/dj/yolo_ws/install/yolo_ros:/home/dj/yolo_ws/install/deep_sort_ros:/opt/ros/humble /usr/bin/cmake /home/dj/yolo_ws/src/yolo_ros/yolo_msgs -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/dj/yolo_ws/install/yolo_msgs
